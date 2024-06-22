@@ -1,0 +1,175 @@
+from "generics/interfaces.ato" import Power, SPI, I2C, USB2
+from "generics/resistors.ato" import Resistor, I2CPullup
+
+
+
+module STM32F407VGT6:
+    micro = new _STM32F407VGT6
+    button = new _TS_minus_1088_minus_AR02016
+    switch = new _SS12D07VG4_space_087
+    
+    
+    power = new Power
+    power.vcc ~ micro.VDD
+    power.gnd ~ micro.VSS
+
+    i2c = new I2C
+    i2c.scl ~ micro.PB6
+    i2c.sda ~ micro.PB7
+    i2cpullup = new I2CPullup
+    i2cpullup.i2c ~ i2c
+    i2cpullup.power ~ power
+    i2cpullup.r_sda.value = 4.7kohm +/- 20% #Can also +/- a value
+    i2cpullup.r_scl.value = 2.7kohm to 10kohm
+    
+
+
+
+
+    spi = new SPI
+    spi.mosi ~ micro.PA7
+    spi.miso ~ micro.PA6
+    spi.sck ~ micro.PA5
+
+    usb = new USB2
+    usb.gnd ~ power.gnd
+    usb.dp ~ micro.PA12
+    usb.dm ~ micro.PA11
+
+    signal Int1 ~ micro.PB2
+    signal Int2 ~ micro.PE7
+    signal Int3 ~ micro.PE8
+    signal Int4 ~ micro.PE9
+
+
+component _SS12D07VG4_space_087:
+    # component SS12D07VG4_space_087
+    footprint = "SW-TH_SS12D07VG4"
+    lcsc_id = "C2939726"
+    mpn = "C2939726"
+    # pins
+    signal _1 ~ pin 1
+    signal _2 ~ pin 2
+    signal _3 ~ pin 3
+    signal _4 ~ pin 4
+    signal _5 ~ pin 5
+
+
+
+component _TS_minus_1088_minus_AR02016:
+    # component TS_minus_1088_minus_AR02016
+    footprint = "SW-SMD_L3.9-W3.0-P4.45"
+    lcsc_id = "C720477"
+    mpn = "C720477"
+    # pins
+    signal _2 ~ pin 2
+    signal _1 ~ pin 1
+
+
+component _STM32F407VGT6:
+    # component STM32F407VGT6
+    footprint = "LQFP-100_L14.0-W14.0-P0.50-LS16.0-BL"
+    lcsc_id = "C12345"
+    mpn = "C12345"
+    # pins
+    signal PE2 ~ pin 1
+    signal PE3 ~ pin 2
+    signal PE4 ~ pin 3
+    signal PE5 ~ pin 4
+    signal PE6 ~ pin 5
+    signal VBAT ~ pin 6
+    signal PC13 ~ pin 7
+    signal PC14 ~ pin 8
+    signal PC15 ~ pin 9
+    signal VSS ~ pin 10
+    signal VDD ~ pin 11
+    signal PH0 ~ pin 12
+    signal PH1 ~ pin 13
+    signal NRST ~ pin 14
+    signal PC0 ~ pin 15
+    signal PC1 ~ pin 16
+    signal PC2 ~ pin 17
+    signal PC3 ~ pin 18
+    VDD ~ pin 19
+    signal VSSA ~ pin 20
+    signal VREF_plus ~ pin 21
+    signal VDDA ~ pin 22
+    signal PA0 ~ pin 23
+    signal PA1 ~ pin 24
+    signal PA2 ~ pin 25
+    signal PA3 ~ pin 26
+    VSS ~ pin 27
+    VDD ~ pin 28
+    signal PA4 ~ pin 29
+    signal PA5 ~ pin 30
+    signal PA6 ~ pin 31
+    signal PA7 ~ pin 32
+    signal PC4 ~ pin 33
+    signal PC5 ~ pin 34
+    signal PB0 ~ pin 35
+    signal PB1 ~ pin 36
+    signal PB2 ~ pin 37
+    signal PE7 ~ pin 38
+    signal PE8 ~ pin 39
+    signal PE9 ~ pin 40
+    signal PE10 ~ pin 41
+    signal PE11 ~ pin 42
+    signal PE12 ~ pin 43
+    signal PE13 ~ pin 44
+    signal PE14 ~ pin 45
+    signal PE15 ~ pin 46
+    signal PB10 ~ pin 47
+    signal PB11 ~ pin 48
+    signal VCAP_1 ~ pin 49
+    VDD ~ pin 50
+    signal PB12 ~ pin 51
+    signal PB13 ~ pin 52
+    signal PB14 ~ pin 53
+    signal PB15 ~ pin 54
+    signal PD8 ~ pin 55
+    signal PD9 ~ pin 56
+    signal PD10 ~ pin 57
+    signal PD11 ~ pin 58
+    signal PD12 ~ pin 59
+    signal PD13 ~ pin 60
+    signal PD14 ~ pin 61
+    signal PD15 ~ pin 62
+    signal PC6 ~ pin 63
+    signal PC7 ~ pin 64
+    signal PC8 ~ pin 65
+    signal PC9 ~ pin 66
+    signal PA8 ~ pin 67
+    signal PA9 ~ pin 68
+    signal PA10 ~ pin 69
+    signal PA11 ~ pin 70
+    signal PA12 ~ pin 71
+    signal PA13 ~ pin 72
+    signal VCAP_2 ~ pin 73
+    VSS ~ pin 74
+    VDD ~ pin 75
+    signal PA14 ~ pin 76
+    signal PA15 ~ pin 77
+    signal PC10 ~ pin 78
+    signal PC11 ~ pin 79
+    signal PC12 ~ pin 80
+    signal PD0 ~ pin 81
+    signal PD1 ~ pin 82
+    signal PD2 ~ pin 83
+    signal PD3 ~ pin 84
+    signal PD4 ~ pin 85
+    signal PD5 ~ pin 86
+    signal PD6 ~ pin 87
+    signal PD7 ~ pin 88
+    signal PB3 ~ pin 89
+    signal PB4 ~ pin 90
+    signal PB5 ~ pin 91
+    signal PB6 ~ pin 92
+    signal PB7 ~ pin 93
+    signal BOOT0 ~ pin 94
+    signal PB8 ~ pin 95
+    signal PB9 ~ pin 96
+    signal PE0 ~ pin 97
+    signal PE1 ~ pin 98
+    VSS ~ pin 99
+    VDD ~ pin 100
+

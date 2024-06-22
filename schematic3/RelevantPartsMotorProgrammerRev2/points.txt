@@ -1,0 +1,19 @@
+Figuring out how to write custom firmware for the Nividia Jetson
+
+Regarding Flashing: 
+- Flash.sh takes care of the flashing side witht 
+Files dedicated to the pin firmware:
+- 
+
+
+Dealing with the pin wirting process: 
+- You need to correpsond your board based on the setup. For the RPi and Jetson library, you usally end up using the BCm board, which for example, sets up the pin 12 as pin 18
+
+
+Regarding Device Tree Specification:
+- Removed the HDMI
+- Removed Camera
+
+
+- Should I get rid of the in built resistor?
+

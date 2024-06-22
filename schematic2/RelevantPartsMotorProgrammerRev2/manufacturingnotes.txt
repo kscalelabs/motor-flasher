@@ -1,0 +1,52 @@
+Current Goals:
+
+Replace with a single SPI wire
+	Find a compatible STM32 that will be able to support the commands.
+
+Replace LCD Panel
+
+Optimize components for capacitors
+
+Potentially resize mounting holes
+
+Double check trace widths to handle 5V
+
+lay components out on the front and back
+
+	Check jlcpcb guidelines for front and back soldering (Price increases, etc.)
+Check wifi communication modules
+	Based off of the ESP32
+
+
+Need to replace the LEDS s.t. they are easier to find
+
+Find a way to avoid isolated power modules. Why avoid power isolation modules?
+
+
+Write up a general document for the Wireless connectivity module
+Write justification for the choice of the Stm32 module
+
+
+
+overall Notes:
+
+- Currently aimed to find models that owuld be easiest to replace in the design. Thus, looked fo rht eclosest design compatibility and compiled the folliowng list on the Excel sheet.
+
+
+
+Justification for the STM32F4 model:
+- Still powerful at a cheaper price
+- available on LCSC with the same packaging
+- Not sure how much memory program will take, 512 KB was on the upper end with a 3$ price tag, justifiable with an immense stock
+
+Parts of Concern:
+LCD Panel, not enough to justify 500 orders. 
+
+
+Nominally: 1500 mA
+
+I_L = 5V / (4.2)*.8 = 2.233 Amps
+
+Currently figuring out the 5V regulator, deciding what the respective part values should be for the TPS61027DRCR
+
+

@@ -1,0 +1,42 @@
+Firmware:
+
+Battery Charger Takes in EN1 and EN2, which determine the power input state. USB500, etc. This should be controlled by the STM32 or preset with knowledge of the circuit
+
+Layout Notes: When dealing with switching regulators, there exists two different types of ground. One dedicated for power as well as one for control. As a result, in order to preserve signal integrity, there needs to be isolation between these two layers. 
+
+When dealing with multiple switching regulators, use mutliple power planes hooked up in parallel to avoid ambiguities of track width.  
+
+Current Goals for design. Want to consider using a 4 layer board vs 2 layers based on signal frequencies. 
+ - Pros: Easy to preserve signal integrity. 
+ - Cons: Tougher to manufacture, with no guarentee of parts placement.
+
+Overall, 4 layers look to be far better of an idea compared to two layers.
+
+Furthermore, need to adjust trace widths for large power planes. Will consider doubling width in order to transfer enough current. 
+
+At the moment, considering doubling the trace width for power lines (Mainly 5 V) In order to transfer power throughout. Perform the same task with Other power planes as well when connecting with each other. Alternative approach, consider using a power plane for 5V as well, such that it is a lot easier to push through a massive aount of current.
+
+- Cons with this approach: Lots of noise when it comes to signal integrity. 
+
+- Differential pairs between lines in order to ensure that D+ and D- do not get interfered with when sending signals. 
+
+A lot easier when in conjunction with a separate layer designed for high speed signals. General approach for the 4 layer board. 
+	Have external layers that deal with low and high signals. Use two inner planes foro power based signals. Need to confirm if the current goal is to use a single plaen in order to deal with both 3.3 V as well as 5V signals.
+
+Previously took every single 100nF capacitor dealing with 3.3 V and ground and isolated them in a single subplane in order to deal with avoiding noise. However, issue with this is certain planes get absolutely fucked. By certain i mean literally every other plane.
+
+
+Currently using power planes for the TPS in order to preserve integrity and for thermal relief as well.
+
+Differential pairs for most complementary signals 
+
+Distanced the CAN package in order to ensure that signals would not interfere with each other. This would also ensure that no signals would be passing through the Isolation barrier of the ISODUBR
+
+
+Currently Noting different moduels that were tested and either accepted as a potential implementation or rejected for whatever reason.
+
+RFM: Rejected as it is a separate module
+Xbee:
+
+
+

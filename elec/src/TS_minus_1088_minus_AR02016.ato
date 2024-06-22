@@ -1,0 +1,9 @@
+component TS_minus_1088_minus_AR02016:
+    # component TS_minus_1088_minus_AR02016
+    footprint = "SW-SMD_L3.9-W3.0-P4.45"
+    lcsc_id = "C720477"
+    mpn = "C720477"
+    # pins
+    signal _2 ~ pin 2
+    signal _1 ~ pin 1
+

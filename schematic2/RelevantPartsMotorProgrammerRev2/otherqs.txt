@@ -1,0 +1,12 @@
+In future designs, use mounting studs.
+
+Leave untouched:
+- Supply
+- NVMe interface
+- Ethernet
+- 
+
+Consider Getting rid of:
+- Can interface
+- Part of the I2C connector for hte LCD display interface
+- 

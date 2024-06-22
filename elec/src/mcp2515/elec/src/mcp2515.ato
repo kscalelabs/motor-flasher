@@ -1,0 +1,215 @@
+from "generics/interfaces.ato" import Power, CAN, CAN_TTL, SPI, Pair, OSC
+from "generics/oscillators.ato" import Crystal, Oscillator
+from "generics/resistors.ato" import Resistor
+from "generics/capacitors.ato" import Capacitor
+
+module MCP2515:
+    """
+    MCP2515 CAN controller + transceiver.
+    """
+    ############## External Interfaces ###############
+    spi = new SPI
+    can = new CAN
+    power3v3 = new Power
+    power5v = new Power
+
+    # JSTGH4Pin for external CAN and 5V power (optional)
+    connector = new JSTGH4Pin
+    power5v ~ connector.power
+    can ~ connector.can
+
+    # optionally may want to connect:
+    # controller.reset
+    # controller.interrupt
+    # transceiver.silent
+
+    # CAN termination populated by default
+    # change below if not needed
+
+    ################# CAN Controller #################
+    controller = new _MCP2515T
+    power3v3 ~ controller.power
+    spi ~ controller.spi
+
+    # bypass cap
+    ctrl_bypass_cap3v3 = new Capacitor
+    ctrl_bypass_cap3v3.footprint = "C0402"
+    ctrl_bypass_cap3v3.value = 100nF +/- 20%
+    power3v3 ~ ctrl_bypass_cap3v3.power
+
+    oscillator = new Oscillator
+    oscillator.crystal -> X322516MLB4SI
+    controller.xin ~ oscillator.xin
+    controller.xout ~ oscillator.xout
+    oscillator.load_cap_1.value = 9pF +/- 10%
+    oscillator.load_cap_2.value = 9pF +/- 10%
+
+
+    ################ CAN Transceiver #################
+    transceiver = new TJA1051T
+    power5v ~ transceiver.power5v
+    power3v3 ~ transceiver.power3v3
+    can ~ transceiver.can
+    controller.can_ttl ~ transceiver.can_ttl
+
+    # bypass caps
+    tx_bypass_cap3v3 = new Capacitor
+    tx_bypass_cap3v3.footprint = "C0402"
+    tx_bypass_cap3v3.value = 100nF +/- 20%
+    power3v3 ~ tx_bypass_cap3v3.power
+
+    tx_bypass_cap5v = new Capacitor
+    tx_bypass_cap5v.footprint = "C0402"
+    tx_bypass_cap5v.value = 100nF +/- 20%
+    power5v ~ tx_bypass_cap5v.power
+
+
+    # ESD protection
+    esd_diode = new PESD1CAN
+    can ~ esd_diode.can
+    power5v ~ esd_diode.power
+
+    # configure for normal mode
+    silent_resistor = new Resistor
+    silent_resistor.value = 10kohm +/- 20%
+    silent_resistor.footprint = "R0402"
+    transceiver.silent.io ~ silent_resistor.1
+    power5v.gnd ~ silent_resistor.2
+
+    # CAN bus termination
+    r_term = new Resistor
+    r_term.value = 120ohm +/- 5%
+    r_term.footprint = "R0402"
+    can.CANL ~ r_term.1
+    can.CANH ~ r_term.2
+    # r_term.mpn = "DNP" # populate by default
+
+    # Filter caps
+    c_canl = new Capacitor
+    c_canl.footprint = "C0402"
+    c_canl.value = 47nF +/- 20%
+    can.CANL ~ c_canl.1
+    power5v.gnd ~ c_canl.2
+
+    c_canh = new Capacitor
+    c_canh.footprint = "C0402"
+    c_canh.value = 47nF +/- 20%
+    can.CANH ~ c_canh.1
+    power5v.gnd ~ c_canh.2
+
+
+component _MCP2515T:
+    # component MCP2515T
+    footprint = "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL"
+    lcsc_id = "C185941"
+    mpn = "C185941"
+
+    can_ttl = new CAN_TTL
+    can_ttl.tx ~ pin 1
+    can_ttl.rx ~ pin 2
+
+    spi = new SPI
+    spi.sck ~ pin 14
+    spi.miso ~ pin 16
+    spi.mosi ~ pin 17
+    spi.cs ~ pin 18
+
+    power = new Power
+    power.vcc ~ pin 20
+    power.gnd ~ pin 10
+
+    xin = new Pair
+    xin.io ~ pin 8
+    xin.gnd ~ power.gnd
+
+    xout = new Pair
+    xout.io ~ pin 9
+    xout.gnd ~ power.gnd
+
+    reset = new Pair
+    reset.io ~ pin 19
+
+    interrupt = new Pair
+    interrupt.io ~ pin 13
+    interrupt.gnd ~ power.gnd
+
+    # typically not used
+    signal CLKOUT_slash_SOF ~ pin 3
+    signal TX0RTS_hash ~ pin 4
+    signal TX1RTS_hash ~ pin 5
+    signal TX2RTS_hash ~ pin 7
+    signal RX1BF_hash ~ pin 11
+    signal RX0BF_hash ~ pin 12
+
+
+component X322516MLB4SI from Crystal:
+    """
+    16MHz crystal, 9pF load capacitance, 20ppm tolerance
+    """
+    footprint = "OSC-SMD_4P-L3.2-W2.5-BL"
+    lcsc_id = "C13738"
+    mpn = "C13738"
+    # pins
+    gnd ~ pin 4
+    gnd ~ pin 2
+    xin ~ pin 1
+    xout ~ pin 3
+
+
+component TJA1051T:
+    """
+    CAN tranciever 5Mbps
+    """
+    footprint = "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+    lcsc_id = "C38695"
+    mpn = "C38695"
+
+    power5v = new Power
+    power5v.vcc ~ pin 3
+    power5v.gnd ~ pin 2
+
+    power3v3 = new Power
+    power3v3.vcc ~ pin 5
+    power3v3.gnd ~ power5v.gnd
+
+    can = new CAN
+    can.CANL ~ pin 6
+    can.CANH ~ pin 7
+
+    can_ttl = new CAN_TTL
+    can_ttl.tx ~ pin 1
+    can_ttl.rx ~ pin 4
+
+    silent = new Pair
+    silent.io ~ pin 8
+    silent.gnd ~ power5v.gnd
+
+
+component PESD1CAN:
+    """
+    200W ESD protection for CAN bus
+    """
+    footprint = "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+    lcsc_id = "C15771"
+    mpn = "C15771"
+    # pins
+    power = new Power
+    power.gnd ~ pin 3
+
+    can = new CAN
+    can.CANL ~ pin 1
+    can.CANH ~ pin 2
+
+component JSTGH4Pin:
+    power = new Power
+    can = new CAN
+
+    power.vcc ~ pin 1
+    can.CANH ~ pin 2
+    can.CANL ~ pin 3
+    power.gnd ~ pin 4
+
+    footprint = "CONN-SMD_4P-P1.25_SM04B-GHS-TB-LF-SN"
+    lcsc_id = "C189895"
+    mpn = "C189895"
+    designator_prefix = "J"
