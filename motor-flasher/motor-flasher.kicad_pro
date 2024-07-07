@@ -584,18 +584,6 @@
     [
       "e3301e22-c54d-4c6d-8201-ed1434ad4e7e",
       "CAN1"
-    ],
-    [
-      "940ff3c2-49db-4a85-87d5-8d5ffe0fde0b",
-      "CAN2"
-    ],
-    [
-      "bd3ed24b-a256-418c-8009-56667d7d7eff",
-      "CAN3"
-    ],
-    [
-      "c6d4c578-5dda-4791-ba60-5a685c3719a9",
-      "CAN4"
     ]
   ],
   "text_variables": {}
