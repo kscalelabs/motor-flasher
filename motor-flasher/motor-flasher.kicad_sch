@@ -774,7 +774,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "06d156b2-e7ee-480c-8393-8b638463578f")
-		(property "Sheetname" "LED"
+		(property "Sheetname" "LCD"
 			(at 209.55 136.4484 0)
 			(effects
 				(font

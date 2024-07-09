@@ -2412,6 +2412,12 @@
 		(uuid "6810573a-d251-4d09-8e31-b62b6dc9e0cb")
 	)
 	(junction
+		(at 93.98 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6de7795d-1649-498b-ae17-ac2da3418179")
+	)
+	(junction
 		(at 195.58 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2533,6 +2539,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 59.69) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20371f48-1e38-47a8-a014-8a09842b4086")
+	)
+	(wire
+		(pts
 			(xy 191.77 64.77) (xy 190.5 64.77)
 		)
 		(stroke
@@ -2593,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 52.07) (xy 99.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515cf933-7916-40db-ba85-edfe36426315")
+	)
+	(wire
+		(pts
 			(xy 194.31 49.53) (xy 199.39 49.53)
 		)
 		(stroke
@@ -2623,7 +2649,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 52.07) (xy 99.06 52.07)
+			(xy 81.28 52.07) (xy 93.98 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3538,6 +3564,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 93.98 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c142a7d-a2d5-49c3-b8b1-ad994c3b55a7")
+		(property "Reference" "#PWR064"
+			(at 93.98 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fe9f824-8d1c-4905-a4f0-840b1b6e628c")
+		)
+		(instances
+			(project "motor-flasher"
+				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 22.86 55.88 0)
 		(unit 1)
@@ -3736,6 +3828,73 @@
 			(project "Motor Programmer Rev. 2"
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68f1c3d6-bd3b-4445-a3e5-ed18dcddac0a")
+		(property "Reference" "C21"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 88.138 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 93.0148 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64c0906f-71bc-43a2-8e33-8cc93913bef5")
+		)
+		(pin "2"
+			(uuid "4eeb2f0c-25b9-4993-9c98-eacd10a67ddf")
+		)
+		(instances
+			(project "motor-flasher"
+				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
+					(reference "C21")
 					(unit 1)
 				)
 			)
