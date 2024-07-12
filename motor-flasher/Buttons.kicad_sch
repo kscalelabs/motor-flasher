@@ -447,9 +447,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -547,8 +547,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -567,9 +567,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -643,8 +643,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -671,7 +671,7 @@
 		(uuid "5104cfde-5de0-46d4-85a9-ac680a4b7d85")
 	)
 	(no_connect
-		(at 205.74 44.45)
+		(at 205.74 46.99)
 		(uuid "9190b4fa-1d5e-4a3c-b43c-9bb287f4bb99")
 	)
 	(no_connect
@@ -680,7 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 67.31) (xy 44.45 67.31)
+			(xy 33.02 57.15) (xy 50.8 57.15)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +690,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 78.74) (xy 44.45 78.74)
+			(xy 33.02 68.58) (xy 50.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -700,7 +700,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 88.9) (xy 44.45 88.9)
+			(xy 33.02 78.74) (xy 50.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +710,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 100.33) (xy 44.45 100.33)
+			(xy 33.02 90.17) (xy 50.8 90.17)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +719,7 @@
 		(uuid "cfe310b5-6305-428a-a267-4f5cf7b68748")
 	)
 	(label "Down"
-		(at 54.61 100.33 0)
+		(at 60.96 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -730,7 +730,7 @@
 		(uuid "0f28ab9d-3966-4fb5-9d71-1810f4664cde")
 	)
 	(label "Up"
-		(at 54.61 88.9 0)
+		(at 60.96 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -774,7 +774,7 @@
 		(uuid "6b458c21-f494-4a8f-9317-0901950cb335")
 	)
 	(label "Sel"
-		(at 54.61 78.74 0)
+		(at 60.96 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -785,7 +785,7 @@
 		(uuid "9424366a-8f93-4c4f-84ee-52eb34a4eb88")
 	)
 	(label "Back"
-		(at 54.61 67.31 0)
+		(at 60.96 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -796,7 +796,7 @@
 		(uuid "9f6434d8-8005-4afe-a131-37c62d84744f")
 	)
 	(label "Down"
-		(at 170.18 44.45 180)
+		(at 170.18 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -820,7 +820,7 @@
 	)
 	(hierarchical_label "DebDown"
 		(shape output)
-		(at 205.74 46.99 0)
+		(at 205.74 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -880,7 +880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "revparts2:SOT95P275X110-6N"
+		(property "Footprint" "Motor-Flasher:SOT95P275X110-6N"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -981,7 +981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 142.24 41.91 0)
 			(effects
 				(font
@@ -1004,7 +1004,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 100.33 270)
+		(at 33.02 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1013,7 +1013,7 @@
 		(fields_autoplaced yes)
 		(uuid "120b23e0-1799-42b0-bd23-6aa0f1e9271c")
 		(property "Reference" "#PWR014"
-			(at 20.32 100.33 0)
+			(at 26.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 100.33 90)
+			(at 29.21 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 100.33 0)
+			(at 33.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 100.33 0)
+			(at 33.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,8 +1048,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 26.67 100.33 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -1182,7 +1182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -1228,7 +1228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "revparts2:SOT95P275X110-6N"
+		(property "Footprint" "Motor-Flasher:SOT95P275X110-6N"
 			(at 124.46 91.44 0)
 			(effects
 				(font
@@ -1285,7 +1285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 88.9 270)
+		(at 33.02 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1294,7 +1294,7 @@
 		(fields_autoplaced yes)
 		(uuid "2aeba194-2afc-4b73-ad60-e31c7fb4c3a0")
 		(property "Reference" "#PWR013"
-			(at 20.32 88.9 0)
+			(at 26.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,7 +1303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 88.9 90)
+			(at 29.21 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,7 +1312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 88.9 0)
+			(at 33.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 88.9 0)
+			(at 33.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,8 +1329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 26.67 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1352,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 67.31 270)
+		(at 33.02 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1361,7 +1361,7 @@
 		(fields_autoplaced yes)
 		(uuid "3593cb56-0274-4488-80dc-f78d10c68b5b")
 		(property "Reference" "#PWR010"
-			(at 20.32 67.31 0)
+			(at 26.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1370,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 67.31 90)
+			(at 29.21 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 67.31 0)
+			(at 33.02 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 67.31 0)
+			(at 33.02 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,8 +1396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 26.67 67.31 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -1486,7 +1486,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 205.74 39.37 270)
+		(at 205.74 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1495,7 +1495,7 @@
 		(fields_autoplaced yes)
 		(uuid "53b53c27-e6cc-464b-ad53-d8d1011a1ea9")
 		(property "Reference" "#PWR023"
-			(at 201.93 39.37 0)
+			(at 201.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1504,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 209.55 39.37 90)
+			(at 209.55 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 39.37 0)
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 39.37 0)
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,8 +1530,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 39.37 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1553,7 @@
 	)
 	(symbol
 		(lib_id "dk_Pushbutton-Switches:GPTS203211B")
-		(at 49.53 100.33 0)
+		(at 55.88 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1562,7 +1562,7 @@
 		(fields_autoplaced yes)
 		(uuid "543e05bd-d2f8-495a-bec9-f4608d06d812")
 		(property "Reference" "S13"
-			(at 49.53 92.71 0)
+			(at 55.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,15 +1570,15 @@
 			)
 		)
 		(property "Value" "TS-1088-AR02016"
-			(at 49.53 95.25 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "revparts2:TS-1088-AR02016"
-			(at 54.61 95.25 0)
+		(property "Footprint" "Motor-Flasher:TS-1088-AR02016"
+			(at 60.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1588,7 @@
 			)
 		)
 		(property "Datasheet" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 54.61 92.71 0)
+			(at 60.96 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1598,7 +1598,7 @@
 			)
 		)
 		(property "Description" "SWITCH PUSHBUTTON SPST 1A 30V"
-			(at 54.61 74.93 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1608,7 +1608,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "CW181-ND"
-			(at 54.61 90.17 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1618,7 +1618,7 @@
 			)
 		)
 		(property "MPN" "GPTS203211B"
-			(at 54.61 87.63 0)
+			(at 60.96 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1628,7 +1628,7 @@
 			)
 		)
 		(property "Category" "Switches"
-			(at 54.61 85.09 0)
+			(at 60.96 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1638,7 +1638,7 @@
 			)
 		)
 		(property "Family" "Pushbutton Switches"
-			(at 54.61 82.55 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1648,7 +1648,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 54.61 80.01 0)
+			(at 60.96 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1658,7 +1658,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590"
-			(at 54.61 77.47 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1668,7 +1668,7 @@
 			)
 		)
 		(property "Manufacturer" "CW Industries"
-			(at 54.61 72.39 0)
+			(at 60.96 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1678,7 +1678,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 54.61 69.85 0)
+			(at 60.96 59.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1704,7 +1704,7 @@
 	)
 	(symbol
 		(lib_id "dk_Pushbutton-Switches:GPTS203211B")
-		(at 49.53 88.9 0)
+		(at 55.88 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1713,7 +1713,7 @@
 		(fields_autoplaced yes)
 		(uuid "570588d6-80e0-4288-bb1a-f1c34d7b863f")
 		(property "Reference" "S12"
-			(at 49.53 81.28 0)
+			(at 55.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,15 +1721,15 @@
 			)
 		)
 		(property "Value" "TS-1088-AR02016"
-			(at 49.53 83.82 0)
+			(at 55.88 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "revparts2:TS-1088-AR02016"
-			(at 54.61 83.82 0)
+		(property "Footprint" "Motor-Flasher:TS-1088-AR02016"
+			(at 60.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1739,7 @@
 			)
 		)
 		(property "Datasheet" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 54.61 81.28 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1749,7 +1749,7 @@
 			)
 		)
 		(property "Description" "SWITCH PUSHBUTTON SPST 1A 30V"
-			(at 54.61 63.5 0)
+			(at 60.96 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1759,7 +1759,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "CW181-ND"
-			(at 54.61 78.74 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1769,7 +1769,7 @@
 			)
 		)
 		(property "MPN" "GPTS203211B"
-			(at 54.61 76.2 0)
+			(at 60.96 66.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1779,7 +1779,7 @@
 			)
 		)
 		(property "Category" "Switches"
-			(at 54.61 73.66 0)
+			(at 60.96 63.5 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1789,7 +1789,7 @@
 			)
 		)
 		(property "Family" "Pushbutton Switches"
-			(at 54.61 71.12 0)
+			(at 60.96 60.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1799,7 +1799,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 54.61 68.58 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1809,7 +1809,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590"
-			(at 54.61 66.04 0)
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1819,7 +1819,7 @@
 			)
 		)
 		(property "Manufacturer" "CW Industries"
-			(at 54.61 60.96 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1829,7 +1829,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 54.61 58.42 0)
+			(at 60.96 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1855,7 +1855,7 @@
 	)
 	(symbol
 		(lib_id "dk_Pushbutton-Switches:GPTS203211B")
-		(at 49.53 78.74 0)
+		(at 55.88 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1864,7 +1864,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e4cef98-f768-4f11-b6c4-7bfbe5dc2571")
 		(property "Reference" "S11"
-			(at 49.53 71.12 0)
+			(at 55.88 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,15 +1872,15 @@
 			)
 		)
 		(property "Value" "TS-1088-AR02016"
-			(at 49.53 73.66 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "revparts2:TS-1088-AR02016"
-			(at 54.61 73.66 0)
+		(property "Footprint" "Motor-Flasher:TS-1088-AR02016"
+			(at 60.96 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1890,7 @@
 			)
 		)
 		(property "Datasheet" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 54.61 71.12 0)
+			(at 60.96 60.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1900,7 +1900,7 @@
 			)
 		)
 		(property "Description" "SWITCH PUSHBUTTON SPST 1A 30V"
-			(at 54.61 53.34 0)
+			(at 60.96 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1910,7 +1910,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "CW181-ND"
-			(at 54.61 68.58 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1920,7 +1920,7 @@
 			)
 		)
 		(property "MPN" "GPTS203211B"
-			(at 54.61 66.04 0)
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1930,7 +1930,7 @@
 			)
 		)
 		(property "Category" "Switches"
-			(at 54.61 63.5 0)
+			(at 60.96 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1940,7 +1940,7 @@
 			)
 		)
 		(property "Family" "Pushbutton Switches"
-			(at 54.61 60.96 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1950,7 +1950,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 54.61 58.42 0)
+			(at 60.96 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1960,7 +1960,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590"
-			(at 54.61 55.88 0)
+			(at 60.96 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1970,7 +1970,7 @@
 			)
 		)
 		(property "Manufacturer" "CW Industries"
-			(at 54.61 50.8 0)
+			(at 60.96 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 54.61 48.26 0)
+			(at 60.96 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2030,7 +2030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "revparts2:SOT95P275X110-6N"
+		(property "Footprint" "Motor-Flasher:SOT95P275X110-6N"
 			(at 124.46 52.07 0)
 			(effects
 				(font
@@ -2131,7 +2131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 142.24 81.28 0)
 			(effects
 				(font
@@ -2198,7 +2198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 106.68 54.61 0)
 			(effects
 				(font
@@ -2221,7 +2221,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 59.69 90)
+		(at 205.74 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2230,7 +2230,7 @@
 		(fields_autoplaced yes)
 		(uuid "7be0e2e0-ec81-4669-b188-b6473cd37098")
 		(property "Reference" "#PWR015"
-			(at 212.09 59.69 0)
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2239,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 59.69 90)
+			(at 209.55 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 59.69 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 59.69 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,8 +2265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2288,7 @@
 	)
 	(symbol
 		(lib_id "dk_Pushbutton-Switches:GPTS203211B")
-		(at 49.53 67.31 0)
+		(at 55.88 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2297,7 +2297,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a937ae7-107b-4623-8ca9-0bc1e7607ab5")
 		(property "Reference" "S5"
-			(at 49.53 59.69 0)
+			(at 55.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,15 +2305,15 @@
 			)
 		)
 		(property "Value" "TS-1088-AR02016"
-			(at 49.53 62.23 0)
+			(at 55.88 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "revparts2:TS-1088-AR02016"
-			(at 54.61 62.23 0)
+		(property "Footprint" "Motor-Flasher:TS-1088-AR02016"
+			(at 60.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2323,7 @@
 			)
 		)
 		(property "Datasheet" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 54.61 59.69 0)
+			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2333,7 +2333,7 @@
 			)
 		)
 		(property "Description" "SWITCH PUSHBUTTON SPST 1A 30V"
-			(at 54.61 41.91 0)
+			(at 60.96 31.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "CW181-ND"
-			(at 54.61 57.15 0)
+			(at 60.96 46.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2353,7 +2353,7 @@
 			)
 		)
 		(property "MPN" "GPTS203211B"
-			(at 54.61 54.61 0)
+			(at 60.96 44.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property "Category" "Switches"
-			(at 54.61 52.07 0)
+			(at 60.96 41.91 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2373,7 +2373,7 @@
 			)
 		)
 		(property "Family" "Pushbutton Switches"
-			(at 54.61 49.53 0)
+			(at 60.96 39.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2383,7 +2383,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 54.61 46.99 0)
+			(at 60.96 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2393,7 +2393,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590"
-			(at 54.61 44.45 0)
+			(at 60.96 34.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2403,7 +2403,7 @@
 			)
 		)
 		(property "Manufacturer" "CW Industries"
-			(at 54.61 39.37 0)
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2413,7 +2413,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 54.61 36.83 0)
+			(at 60.96 26.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2439,7 +2439,7 @@
 	)
 	(symbol
 		(lib_id "MAX16054AZT_T:MAX16054AZT_T")
-		(at 187.96 49.53 0)
+		(at 187.96 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2448,14 +2448,6 @@
 		(fields_autoplaced yes)
 		(uuid "8e11c386-5fcb-4f05-bd8f-13fdba51b35d")
 		(property "Reference" "U5"
-			(at 187.96 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX16054AZT_T"
 			(at 187.96 34.29 0)
 			(effects
 				(font
@@ -2463,8 +2455,16 @@
 				)
 			)
 		)
-		(property "Footprint" "revparts2:SOT95P275X110-6N"
-			(at 187.96 49.53 0)
+		(property "Value" "MAX16054AZT_T"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Motor-Flasher:SOT95P275X110-6N"
+			(at 187.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 49.53 0)
+			(at 187.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 49.53 0)
+			(at 187.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 205.74 101.6 0)
 			(effects
 				(font
@@ -2631,7 +2631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 106.68 93.98 0)
 			(effects
 				(font
@@ -2654,7 +2654,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 52.07 270)
+		(at 170.18 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2663,7 +2663,7 @@
 		(fields_autoplaced yes)
 		(uuid "e10ef592-412e-4363-b22b-b22fc28d1aa1")
 		(property "Reference" "#PWR020"
-			(at 163.83 52.07 0)
+			(at 163.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +2672,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 52.07 90)
+			(at 166.37 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +2681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 52.07 0)
+			(at 170.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +2690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 52.07 0)
+			(at 170.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,8 +2698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 78.74 270)
+		(at 33.02 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2730,7 +2730,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1ac3969-c462-4ce5-bb78-3345adc397d2")
 		(property "Reference" "#PWR011"
-			(at 20.32 78.74 0)
+			(at 26.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2739,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 78.74 90)
+			(at 29.21 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 78.74 0)
+			(at 33.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 78.74 0)
+			(at 33.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,8 +2765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 26.67 78.74 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 142.24 101.6 0)
 			(effects
 				(font

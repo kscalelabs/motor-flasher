@@ -3,4 +3,5 @@
   (lib (name "footprints")(type "KiCad")(uri "C:/Users/Vedant/Downloads/RelevantPartsMotorProgrammerRev2/GPTS203211B/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TS-1088-AR02016")(type "KiCad")(uri "${KIPRJMOD}/RelevantPartsMotorProgrammerRev2/footprints.pretty/TS-1088-AR02016.pretty")(options "")(descr ""))
   (lib (name "LCDScreen")(type "KiCad")(uri "${KIPRJMOD}/RelevantPartsMotorProgrammerRev2/LCDScreen.pretty")(options "")(descr ""))
+
 )
