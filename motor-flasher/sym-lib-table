@@ -37,4 +37,5 @@
   (lib (name "TPS61202DRCT")(type "KiCad")(uri "${KIPRJMOD}/RelevantParts/Schematicfootprints/TPS61202DRCT.kicad_sym")(options "")(descr ""))
   (lib (name "TS-102-G-A")(type "KiCad")(uri "${KIPRJMOD}/RelevantParts/Schematicfootprints/TS-102-G-A.kicad_sym")(options "")(descr ""))
   (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/RelevantParts/Schematicfootprints/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "Motor_Flasher_Modified")(type "KiCad")(uri "${KIPRJMOD}/Motor_Flasher_Modified.kicad_sym")(options "")(descr ""))
 )

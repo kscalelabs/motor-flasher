@@ -5,50 +5,32 @@
 	(uuid "251d826f-f7db-4586-aa1b-11c9b3059975")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2024-05-28_19-32-11:SS12D07VG4NSGAPA"
+		(symbol "+5V_1"
+			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0.254)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 15.24 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SS12D07VG4NSGAPA"
-				(at 20.32 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SS12D07_CNK"
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "SS12D07VG4NSGAPA"
-				(at 0 0 0)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,15 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SS12D07VG4NSGAPA"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SS12D07_CNK"
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,263 +57,58 @@
 					(hide yes)
 				)
 			)
-			(symbol "SS12D07VG4NSGAPA_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -12.7) (xy 20.32 -12.7)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "+5V_1_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 10.16 -9.525)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 10.16 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 15.24 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 15.24 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -10.795) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -9.525) (xy 10.16 -10.795)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.715) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -4.445) (xy 10.16 -5.715)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -0.635) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0.635) (xy 10.16 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 0) (xy 15.24 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -12.7) (xy 20.32 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 10.16 -9.525) (xy 10.16 -10.795)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 7.62 -5.08) (xy 10.16 -4.445) (xy 10.16 -5.715)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 10.16 0.635) (xy 10.16 -0.635)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "1"
+			)
+			(symbol "+5V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -347,42 +116,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1134,7 +867,7 @@
 				)
 			)
 		)
-		(symbol "ISO1050DUBR:ISO1050DUBR"
+		(symbol "Motor_Flasher_Modified:ISO1050DUBR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1345,7 +1078,7 @@
 				)
 			)
 		)
-		(symbol "MCP2515-I_SO:MCP2515-I_SO"
+		(symbol "Motor_Flasher_Modified:MCP2515-I_SO"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1736,7 +1469,7 @@
 				)
 			)
 		)
-		(symbol "RFM-0505S:RFM-0505S"
+		(symbol "Motor_Flasher_Modified:RFM-0505S"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1915,7 +1648,396 @@
 				)
 			)
 		)
-		(symbol "SS12D07VG4NSGAPA_1"
+		(symbol "Motor_Flasher_Modified:SS12D07VG4NSGAPA_120Ohms"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at 13.97 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SS12D07VG4NSGAPA_120Ohms"
+				(at 13.97 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Motor-Flasher:SS12D07_CNK"
+				(at 1.27 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SS12D07VG4NSGAPA"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SS12D07VG4NSGAPA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SS12D07_CNK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS12D07VG4NSGAPA_120Ohms_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 20.32 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 10.16 -9.525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 10.16 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.795) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -9.525) (xy 10.16 -10.795)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.715) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -4.445) (xy 10.16 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -0.635) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0.635) (xy 10.16 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 0) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -12.7) (xy 20.32 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 10.16 -9.525) (xy 10.16 -10.795)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 10.16 -4.445) (xy 10.16 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0.635) (xy 10.16 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SS12D07VG4NSGAPA_120Ohms_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Motor_Flasher_Modified:SS12D07VG4NSGAPA_Signals"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1995,7 +2117,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SS12D07VG4NSGAPA_1_0_1"
+			(symbol "SS12D07VG4NSGAPA_Signals_0_1"
 				(polyline
 					(pts
 						(xy 7.62 -12.7) (xy 20.32 -12.7)
@@ -2249,7 +2371,7 @@
 					)
 				)
 			)
-			(symbol "SS12D07VG4NSGAPA_1_1_1"
+			(symbol "SS12D07VG4NSGAPA_Signals_1_1"
 				(pin input line
 					(at 0 0 0)
 					(length 7.62)
@@ -2306,398 +2428,7 @@
 				)
 			)
 		)
-		(symbol "SS12D07VG4NSGAPA_2"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW4"
-				(at 21.59 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SS12D07VG4NSGAPA"
-				(at 21.59 -6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Motor-Flasher:SS12D07_CNK"
-				(at 3.81 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "SS12D07VG4NSGAPA"
-				(at 4.826 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SS12D07VG4NSGAPA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SS12D07_CNK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS12D07VG4NSGAPA_2_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -12.7) (xy 20.32 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 10.16 -9.525)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 10.16 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 15.24 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 15.24 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -10.795) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -9.525) (xy 10.16 -10.795)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.715) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -4.445) (xy 10.16 -5.715)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -0.635) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0.635) (xy 10.16 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 0) (xy 15.24 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -12.7) (xy 20.32 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 10.16 -9.525) (xy 10.16 -10.795)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 10.16 -4.445) (xy 10.16 -5.715)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0.635) (xy 10.16 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SS12D07VG4NSGAPA_2_1_1"
-				(pin input line
-					(at 0 0 0)
-					(length 7.62)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TB006-508-03BE:TB006-508-03BE"
+		(symbol "Motor_Flasher_Modified:TB006-508-03BE"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2958,126 +2689,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3176,12 +2787,6 @@
 		)
 	)
 	(junction
-		(at 55.88 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ae5360b-6844-4c25-8511-b13e289b03af")
-	)
-	(junction
 		(at 99.06 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3235,16 +2840,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 133.35) (xy 55.88 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01b17242-94ca-4577-ade5-c4eba6b5d791")
-	)
-	(wire
-		(pts
 			(xy 203.2 49.53) (xy 205.74 49.53)
 		)
 		(stroke
@@ -3272,16 +2867,6 @@
 			(type default)
 		)
 		(uuid "128d55fb-e396-4292-baac-913b2e61e077")
-	)
-	(wire
-		(pts
-			(xy 68.58 120.65) (xy 68.58 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1803e9d6-a4dd-43c6-b3aa-47ce63392c6f")
 	)
 	(wire
 		(pts
@@ -3335,16 +2920,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 133.35) (xy 55.88 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39795bc9-87db-4cda-b139-3afe8790eca1")
-	)
-	(wire
-		(pts
 			(xy 85.09 85.09) (xy 81.28 85.09)
 		)
 		(stroke
@@ -3362,16 +2937,6 @@
 			(type default)
 		)
 		(uuid "515cf933-7916-40db-ba85-edfe36426315")
-	)
-	(wire
-		(pts
-			(xy 43.18 130.81) (xy 43.18 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65bde33b-90eb-4058-b817-1ea21e99e481")
 	)
 	(wire
 		(pts
@@ -3425,16 +2990,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 130.81) (xy 68.58 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8871dcbe-acff-48ed-a6f8-8ce3a1bcf51c")
-	)
-	(wire
-		(pts
 			(xy 143.51 69.85) (xy 154.94 69.85)
 		)
 		(stroke
@@ -3442,16 +2997,6 @@
 			(type default)
 		)
 		(uuid "97ee3cc7-d316-4bf2-aaae-e5a9514c0f9d")
-	)
-	(wire
-		(pts
-			(xy 43.18 120.65) (xy 43.18 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdf5fd8e-1ff3-4d3f-9098-8f65450c40ac")
 	)
 	(wire
 		(pts
@@ -3820,93 +3365,6 @@
 		(uuid "fad8c059-65e9-4ee4-8640-98a6959ac4d4")
 	)
 	(symbol
-		(lib_id "ISO1050DUBR:ISO1050DUBR")
-		(at 172.72 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01585a88-6c1f-4895-bbdd-85f367d0274c")
-		(property "Reference" "U20"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ISO1050DUBR"
-			(at 172.72 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Motor-Flasher:SOP254P1040X485-8N"
-			(at 172.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8147d21-0add-45b2-9eff-8f26eb1d4dd6")
-		)
-		(pin "2"
-			(uuid "c118ba0e-69e8-4ec5-81c4-d5a16eb8a99c")
-		)
-		(pin "3"
-			(uuid "f33dd02a-af9a-43be-8a5f-2f779090f93c")
-		)
-		(pin "4"
-			(uuid "64593f2a-4329-455a-8c53-1f82e0d51773")
-		)
-		(pin "5"
-			(uuid "51e7ddc3-5947-4956-ad97-7c5af14cab89")
-		)
-		(pin "6"
-			(uuid "06d9e6d9-b6d5-4dbc-a0e9-9e49b3c63b59")
-		)
-		(pin "7"
-			(uuid "24a7688f-6dff-4327-ba2f-3d14d5b7abfa")
-		)
-		(pin "8"
-			(uuid "a76fc318-99e6-4023-b641-f6704c07b916")
-		)
-		(instances
-			(project "Motor Programmer Rev. 2"
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "U20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 104.14 52.07 270)
 		(unit 1)
@@ -3974,16 +3432,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 99.06 120.65 90)
+		(lib_id "power:GND")
+		(at 55.88 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0a246bf2-c2b2-46d6-83d5-d8569c87cb8e")
-		(property "Reference" "#PWR078"
-			(at 102.87 120.65 0)
+		(fields_autoplaced yes)
+		(uuid "08796374-efbd-424c-b72a-c8efb0017288")
+		(property "Reference" "#PWR035"
+			(at 55.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,8 +3450,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 93.98 119.38 90)
+		(property "Value" "GND"
+			(at 55.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +3459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 120.65 0)
+			(at 55.88 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +3468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 120.65 0)
+			(at 55.88 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,8 +3476,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 120.65 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,12 +3486,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5dbe7bc5-3051-4043-9ceb-b125500cbef4")
+			(uuid "298a2074-7c07-4358-bb06-ddbab83f67d6")
 		)
 		(instances
-			(project "Motor Programmer Rev. 2"
+			(project ""
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "#PWR078")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4166,6 +3625,195 @@
 			(project "motor-flasher"
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_Flasher_Modified:MCP2515-I_SO")
+		(at 63.5 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32f84de5-6aba-40ac-b409-350a8c053e8a")
+		(property "Reference" "U5"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP2515-I_SO"
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Motor-Flasher:SOIC127P1030X265-18N"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "400843ed-6f0d-4a7b-bf27-a81d3ca23103")
+		)
+		(pin "5"
+			(uuid "9ff6d0d7-556e-4c48-82c4-676e0f243240")
+		)
+		(pin "7"
+			(uuid "8bcce981-4db1-4826-bb47-5b37d0124b1c")
+		)
+		(pin "15"
+			(uuid "74197fcb-7933-436d-be21-d0a6a2c3a543")
+		)
+		(pin "9"
+			(uuid "9d0dc7b1-6f87-40e1-8e8a-60781227ad2a")
+		)
+		(pin "10"
+			(uuid "96c17a85-843a-4102-a070-8a37c5e11ded")
+		)
+		(pin "3"
+			(uuid "d9f8a748-b10c-465a-855d-025a75dc2761")
+		)
+		(pin "18"
+			(uuid "abd93868-1c55-4478-aa38-ecfe987ec0e6")
+		)
+		(pin "2"
+			(uuid "636254d0-dc78-4a13-a778-75d286f29e19")
+		)
+		(pin "12"
+			(uuid "a2570b49-6691-466e-8188-9a7b889ab347")
+		)
+		(pin "16"
+			(uuid "5ef5170d-1e88-485f-b14a-799cad0330c9")
+		)
+		(pin "17"
+			(uuid "7768a0ce-5e24-4658-8d06-d3c078b48cc9")
+		)
+		(pin "8"
+			(uuid "fb664d5e-583c-4b09-a9e7-32d609f00a64")
+		)
+		(pin "4"
+			(uuid "9a517797-03ae-4e2b-a8fe-62225fa995db")
+		)
+		(pin "14"
+			(uuid "b505e68a-d129-4ef0-80eb-c63205061b32")
+		)
+		(pin "6"
+			(uuid "3c6480f4-896c-4b50-b409-61fd83d9bc5d")
+		)
+		(pin "11"
+			(uuid "c9aeb8c1-cf7a-4aae-8d70-dec5e177b1c6")
+		)
+		(pin "13"
+			(uuid "73d86cc1-70fc-4da3-a2ca-8a1c2424b4f6")
+		)
+		(instances
+			(project ""
+				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_Flasher_Modified:SS12D07VG4NSGAPA_120Ohms")
+		(at 143.51 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3539ce39-6d57-4537-b6cb-287ffcddbd8d")
+		(property "Reference" "SW4"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SS12D07VG4NSGAPA_120Ohms"
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Motor-Flasher:SS12D07_CNK"
+			(at 142.24 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SS12D07VG4NSGAPA"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c0265a8-f5bd-4e62-9f05-922b7ce22677")
+		)
+		(pin "3"
+			(uuid "eb8917ba-5d1a-4b66-8d9f-956a2cbdddd8")
+		)
+		(pin "2"
+			(uuid "ceeb0d90-ca8d-48f4-8fa5-e8ac6f13a6e5")
+		)
+		(instances
+			(project ""
+				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4373,82 +4021,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SS12D07VG4NSGAPA_1")
-		(lib_id "2024-05-28_19-32-11:SS12D07VG4NSGAPA")
-		(at 175.26 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "577bf6fb-fbbf-4d8b-9c7e-270d8a41dd6f")
-		(property "Reference" "SW3"
-			(at 196.85 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS12D07VG4NSGAPA"
-			(at 196.85 120.65 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Motor-Flasher:SS12D07_CNK"
-			(at 177.292 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "SS12D07VG4NSGAPA"
-			(at 176.022 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90c0e019-49aa-49da-a936-abc65306ca70")
-		)
-		(pin "2"
-			(uuid "4ae70357-319d-402f-8345-a321bc744617")
-		)
-		(pin "3"
-			(uuid "899ae2ad-b658-4f1b-8c3e-4fa12b3d6a62")
-		)
-		(instances
-			(project "motor-flasher"
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 85.09 90)
 		(unit 1)
@@ -4583,7 +4155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "RFM-0505S:RFM-0505S")
+		(lib_id "Motor_Flasher_Modified:RFM-0505S")
 		(at 118.11 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4591,8 +4163,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7011e5ff-8d05-4a16-8326-0b7f638f9513")
-		(property "Reference" "PS5"
+		(uuid "6a09004a-2be0-4d16-9088-d61d28e54bdc")
+		(property "Reference" "PS1"
 			(at 118.11 113.03 0)
 			(effects
 				(font
@@ -4676,40 +4248,126 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "034d35e2-c771-41cb-88bc-77ff7c77f9e1")
+		)
 		(pin "1"
-			(uuid "8824d4aa-3151-4d3f-8141-4313c1adcbbd")
+			(uuid "e537b71d-328d-4e1f-9716-e45cd4d7621c")
 		)
 		(pin "2"
-			(uuid "15625487-c306-43d9-bbea-0ba3c819b015")
-		)
-		(pin "3"
-			(uuid "558fb529-a145-4b01-9e68-891fa7eadb9e")
+			(uuid "b0f0c3b2-b45d-4177-a48d-742676e602d2")
 		)
 		(pin "4"
-			(uuid "83951f90-9808-4c01-aa83-58fc6d5a407f")
+			(uuid "6a67c429-a56f-4d6d-b2ce-7cb9413f445d")
 		)
 		(instances
-			(project "Motor Programmer Rev. 2"
+			(project ""
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "PS5")
+					(reference "PS1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "SS12D07VG4NSGAPA_2")
-		(lib_id "2024-05-28_19-32-11:SS12D07VG4NSGAPA")
-		(at 175.26 137.16 0)
+		(lib_id "Motor_Flasher_Modified:ISO1050DUBR")
+		(at 172.72 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c171f40-51b7-4b13-a55e-24bea42e1ac3")
-		(property "Reference" "SW4"
-			(at 196.85 140.97 0)
+		(uuid "78b2920c-8682-408c-9394-2856f13955a9")
+		(property "Reference" "U6"
+			(at 172.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO1050DUBR"
+			(at 172.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Motor-Flasher:SOP254P1040X485-8N"
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efb0c1eb-a363-4059-b2e2-2bd48577dc14")
+		)
+		(pin "6"
+			(uuid "c4a667a7-91ee-4d77-b134-33edb5f08a9e")
+		)
+		(pin "8"
+			(uuid "6c74414f-de8c-437a-8a26-c4fbbff71f4d")
+		)
+		(pin "4"
+			(uuid "07ef87da-f106-4796-b3a0-42091db4c66a")
+		)
+		(pin "7"
+			(uuid "909b6604-88e0-4d2e-ad79-8f5eda677e8e")
+		)
+		(pin "1"
+			(uuid "b8be651f-9cba-4709-adfa-dc4f667bf139")
+		)
+		(pin "5"
+			(uuid "e87d7811-030a-41ff-8f76-5180f3040e14")
+		)
+		(pin "3"
+			(uuid "da966281-d23b-4292-a1e0-545c79a831f8")
+		)
+		(instances
+			(project ""
+				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_Flasher_Modified:SS12D07VG4NSGAPA_Signals")
+		(at 175.26 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96d57c49-bdc0-49cb-9f38-8b6eea835343")
+		(property "Reference" "SW6"
+			(at 196.85 118.1099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4718,7 +4376,7 @@
 			)
 		)
 		(property "Value" "SS12D07VG4NSGAPA"
-			(at 196.85 143.51 0)
+			(at 196.85 120.6499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4727,7 +4385,7 @@
 			)
 		)
 		(property "Footprint" "Motor-Flasher:SS12D07_CNK"
-			(at 179.07 129.032 0)
+			(at 177.292 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +4395,7 @@
 			)
 		)
 		(property "Datasheet" "SS12D07VG4NSGAPA"
-			(at 180.086 131.572 0)
+			(at 176.022 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 137.16 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,87 +4414,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "76ec1db9-4221-4cd0-9f4d-86e820885977")
+			(uuid "43f5321e-908e-4d68-8b2a-3dce1794ea25")
 		)
 		(pin "2"
-			(uuid "50d2761b-7080-44b2-8acf-8ea19684d4c7")
+			(uuid "3e7801aa-5815-4cb9-af84-d9efcc45dc16")
 		)
 		(pin "3"
-			(uuid "d593abec-c6b7-430e-9e94-abfde338e9fb")
+			(uuid "2a2a68e3-3e03-443f-9c46-c3c6135849d3")
 		)
 		(instances
-			(project "motor-flasher"
+			(project ""
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 68.58 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9673b24b-3851-46b7-9438-76c8c7dfab79")
-		(property "Reference" "C32"
-			(at 68.58 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "7pF"
-			(at 69.85 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 69.5452 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45c1d5af-d3e3-42cc-ba5a-e432cb384be2")
-		)
-		(pin "2"
-			(uuid "b7d392f7-ca48-4843-9fab-546f0ffa6c3d")
-		)
-		(instances
-			(project "Motor Programmer Rev. 2"
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "C32")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -4976,72 +4565,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7a24781-1e9c-4aab-a72b-bdbf2c9cbb3b")
-		(property "Reference" "#PWR074"
-			(at 55.88 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fefff4ce-67b8-400a-aa87-37422e00ec82")
-		)
-		(instances
-			(project "Motor Programmer Rev. 2"
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 193.04 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5101,75 +4624,6 @@
 			(project "Motor Programmer Rev. 2"
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 43.18 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2caf9ce-6873-44c8-a7f8-c2be3be7ed03")
-		(property "Reference" "C31"
-			(at 40.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "7pF"
-			(at 39.37 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 44.1452 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4063e31d-6dcf-4f36-ae0b-85e9ebd39b31")
-		)
-		(pin "2"
-			(uuid "c32dba13-3b0d-4313-814e-7a79ebc4280f")
-		)
-		(instances
-			(project "Motor Programmer Rev. 2"
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -5237,6 +4691,74 @@
 			(project "Motor Programmer Rev. 2"
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 99.06 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb78ddb1-809c-4d1e-91fc-6df005af729f")
+		(property "Reference" "#PWR054"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "546d3c89-89c3-4946-b044-fac8d54b33ec")
+		)
+		(instances
+			(project ""
+				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5377,150 +4899,35 @@
 		)
 	)
 	(symbol
-		(lib_id "MCP2515-I_SO:MCP2515-I_SO")
-		(at 63.5 69.85 0)
+		(lib_id "Motor_Flasher_Modified:SS12D07VG4NSGAPA_Signals")
+		(at 175.26 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c13835b8-efca-4e03-8648-67f03860a716")
-		(property "Reference" "U19"
-			(at 63.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP2515-I_SO"
-			(at 63.5 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Motor-Flasher:SOIC127P1030X265-18N"
-			(at 63.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc0bb77f-5e86-415b-9a16-c218386fe393")
-		)
-		(pin "10"
-			(uuid "7a7091cb-c832-4191-9030-dfe31a399af2")
-		)
-		(pin "11"
-			(uuid "a1fb6fd0-1f9d-408f-893d-a457f304f15e")
-		)
-		(pin "12"
-			(uuid "4ddd3d34-8fdb-4c05-9b97-eace2dc05ac8")
-		)
-		(pin "13"
-			(uuid "50622b62-c2d4-49fa-b77e-f29f8dfb9fac")
-		)
-		(pin "14"
-			(uuid "47251a97-7128-4e24-b09d-1a239e2d0cbe")
-		)
-		(pin "15"
-			(uuid "a6735c66-2dfc-4261-b3b4-f381b46ac379")
-		)
-		(pin "16"
-			(uuid "22821b37-7099-49c5-a255-fa146ae18c0f")
-		)
-		(pin "17"
-			(uuid "fff7e352-b5f8-414c-9323-8133aa2d9b85")
-		)
-		(pin "18"
-			(uuid "038c23fe-6cd4-48e7-838f-9e6dbfb21220")
-		)
-		(pin "2"
-			(uuid "67134682-ac93-4a35-8753-ae235c97c134")
-		)
-		(pin "3"
-			(uuid "da27ad78-0489-41e2-a510-b837d322b032")
-		)
-		(pin "4"
-			(uuid "c32d3d86-5d5d-488b-ab89-1aaf8ed7e71d")
-		)
-		(pin "5"
-			(uuid "510f0d70-5cb9-45b7-b31b-58e8783dbeff")
-		)
-		(pin "6"
-			(uuid "6f2c1c68-3421-4e05-88b7-6541088eaa01")
-		)
-		(pin "7"
-			(uuid "f792402d-d5b7-4f7c-8ee6-51ebd59ea3a9")
-		)
-		(pin "8"
-			(uuid "46806c61-6bb9-4d6e-b823-afd7a67a43b6")
-		)
-		(pin "9"
-			(uuid "ab59c9cc-259b-4564-a6bd-3b7bb238bf4c")
-		)
-		(instances
-			(project "Motor Programmer Rev. 2"
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "U19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2024-05-28_19-32-11:SS12D07VG4NSGAPA")
-		(at 143.51 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7d7acf6-18f5-4d40-9cc2-aee630f932fc")
-		(property "Reference" "SW1"
-			(at 129.54 62.23 0)
+		(uuid "cf0ed8b6-bd56-4b5a-be6f-ae6d259f0612")
+		(property "Reference" "SW7"
+			(at 196.85 140.9699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SS12D07VG4NSGAPA"
-			(at 129.54 64.77 0)
+			(at 196.85 143.5099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Motor-Flasher:SS12D07_CNK"
-			(at 143.51 80.01 0)
+			(at 177.292 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,7 +4937,7 @@
 			)
 		)
 		(property "Datasheet" "SS12D07VG4NSGAPA"
-			(at 143.51 80.01 0)
+			(at 176.022 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +4947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 80.01 0)
+			(at 175.26 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,25 +4956,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "7de4e78a-d2fa-4c29-b351-25367461e9df")
+			(uuid "e4d1aa20-022e-470f-be40-70a53ab309c0")
 		)
 		(pin "2"
-			(uuid "0decfb7a-e80f-4689-9dce-632262bcb07e")
+			(uuid "68483dad-a876-4a55-8273-0cb6acef8d66")
 		)
 		(pin "3"
-			(uuid "4b406a79-84ee-4ce6-8f7a-c259af4704f4")
+			(uuid "d1d80d70-746b-4f63-9cca-d060b0ef4790")
 		)
 		(instances
-			(project "Motor Programmer Rev. 2"
+			(project "motor-flasher"
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "SW1")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TB006-508-03BE:TB006-508-03BE")
+		(lib_id "Motor_Flasher_Modified:TB006-508-03BE")
 		(at 57.15 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5575,8 +4982,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d84f820c-7eaa-4078-a5ed-eba608572bf4")
-		(property "Reference" "J8"
+		(uuid "dd5594c6-0301-4c8c-9ce1-0ad467b3b711")
+		(property "Reference" "J3"
 			(at 57.15 152.4 0)
 			(effects
 				(font
@@ -5641,18 +5048,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "686a88ea-3da4-4782-8593-22b85618df8d")
+			(uuid "f39ffe9e-3687-4938-b533-d82924313725")
 		)
 		(pin "2"
-			(uuid "d0c09978-b450-4b89-8eb0-3457add10c3f")
+			(uuid "7f7f199a-8cc1-4f55-940f-2fbbd69c648f")
 		)
 		(pin "3"
-			(uuid "a972926c-9ca2-41b8-b0fd-b076b55bcf5c")
+			(uuid "67689084-5cd9-4749-a247-c3ebae45014e")
 		)
 		(instances
-			(project "Motor Programmer Rev. 2"
+			(project ""
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/e3301e22-c54d-4c6d-8201-ed1434ad4e7e"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)

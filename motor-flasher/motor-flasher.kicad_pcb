@@ -1543,7 +1543,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0941f7a0-a8f7-4281-9772-ae58b84db250")
-		(at -77.02 168.56)
+		(at -75.5 162.5)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -6233,7 +6233,7 @@
 		(uuid "6e81399d-c08d-4459-b6e9-f86dae41eedb")
 		(at 176.77 246.25)
 		(property "Reference" "PS5"
-			(at -2.385 -4.745 360)
+			(at -2.385 -4.745 0)
 			(layer "F.SilkS")
 			(uuid "c82bc252-7f93-422d-8901-a198e6893755")
 			(effects
@@ -6244,7 +6244,7 @@
 			)
 		)
 		(property "Value" "B0505S-1WR3"
-			(at 3.08 4.295 360)
+			(at 3.08 4.295 0)
 			(layer "F.Fab")
 			(uuid "c514173e-48c8-4f1f-a389-391a8ff1c85d")
 			(effects
@@ -6255,7 +6255,7 @@
 			)
 		)
 		(property "Footprint" "Motor-Flasher:CONV_RFM-0505S"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8280e1ea-7c8b-4cb3-b8f8-d52758682b83")
@@ -6267,7 +6267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2af538da-5e96-4133-a0c9-240f3e64df97")
@@ -6279,7 +6279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d96d363-b132-4f29-a9c4-d2cbba2cd05d")
@@ -7854,7 +7854,7 @@
 			)
 		)
 		(property "Footprint" "Motor-Flasher:SS12D07_CNK"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6ace22f-b59a-456f-be9b-63cac0ef2df4")
@@ -7866,7 +7866,7 @@
 			)
 		)
 		(property "Datasheet" "SS12D07VG4NSGAPA"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3edffa45-fbe4-4044-9e90-123f8729657f")
@@ -7878,7 +7878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7cea9cf2-d2d9-4bc0-b54d-dc06f04678cc")
@@ -8087,7 +8087,7 @@
 			(uuid "980eb001-7acc-436a-8022-67caefa15449")
 		)
 		(fp_text user "*"
-			(at -2.6543 0 360)
+			(at -2.6543 0 0)
 			(layer "F.SilkS")
 			(uuid "7a2c7bae-a190-420b-b53b-5afd01cb9397")
 			(effects
@@ -8134,7 +8134,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -1.7653 0 360)
+			(at -1.7653 0 0)
 			(layer "F.Fab")
 			(uuid "c843ef8c-3b99-4d71-bee8-0006a0da396d")
 			(effects
@@ -12026,7 +12026,7 @@
 	(footprint "Motor-Flasher:SS12D07_CNK"
 		(layer "F.Cu")
 		(uuid "b0a18019-de2a-4f2b-9102-bc4f51f2c9d8")
-		(at -180.5 429.5)
+		(at 77.5 145.100001)
 		(tags "SS12D07VG4NSGAPA ")
 		(property "Reference" "SW4"
 			(at 0 2 0)
@@ -12054,7 +12054,7 @@
 			)
 		)
 		(property "Footprint" "Motor-Flasher:SS12D07_CNK"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "023dc6f2-2103-4602-a4cf-baf1fe9431af")
@@ -12066,7 +12066,7 @@
 			)
 		)
 		(property "Datasheet" "SS12D07VG4NSGAPA"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb1204e3-087a-4294-b8a1-f57d63651ff1")
@@ -12078,7 +12078,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "79c0bb37-9674-4514-9a8e-b266e1300d52")
@@ -12287,7 +12287,7 @@
 			(uuid "9090d1b3-c7af-4e18-adb5-b5b9083946d9")
 		)
 		(fp_text user "*"
-			(at -2.6543 0 360)
+			(at -2.6543 0 0)
 			(layer "F.SilkS")
 			(uuid "dea4bc8f-da8f-423e-8a87-606d2ab62dd1")
 			(effects
@@ -12322,7 +12322,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -1.7653 0 360)
+			(at -1.7653 0 0)
 			(layer "F.Fab")
 			(uuid "1461a6be-8b6e-4529-affc-ad96707f7497")
 			(effects
@@ -12514,7 +12514,7 @@
 		(uuid "beaa4e73-e45c-4709-9a00-8f292c6cec0b")
 		(at 552.75 97.475)
 		(property "Reference" "J4"
-			(at 7.4173 56.7203 360)
+			(at 7.4173 56.7203 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "68c1e0b5-0d5f-4ab8-a28a-9e3e43939015")
@@ -12526,7 +12526,7 @@
 			)
 		)
 		(property "Value" "B2B-PH-K-S-GW"
-			(at 3.67 4.76 360)
+			(at 3.67 4.76 0)
 			(layer "F.Fab")
 			(uuid "55145540-0a6d-4b5a-b45a-b290a4195358")
 			(effects
@@ -12537,7 +12537,7 @@
 			)
 		)
 		(property "Footprint" "Motor-Flasher:JST_B2B-XH-A"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38257517-93ba-453f-b391-80d74f517fa9")
@@ -12549,7 +12549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34c949db-e961-4852-953e-6d5937c06ada")
@@ -12561,7 +12561,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87c14999-c9f8-4d9a-a5e8-9bf5aef163f0")
@@ -17007,7 +17007,7 @@
 		(uuid "dd193011-b3e9-4844-bf91-29351fd59508")
 		(at 126 73)
 		(property "Reference" "U10"
-			(at -2.613189 -8.47077 360)
+			(at -2.613189 -8.47077 0)
 			(layer "F.SilkS")
 			(uuid "256b5dd1-9342-4145-b483-b4677af8d631")
 			(effects
@@ -17018,7 +17018,7 @@
 			)
 		)
 		(property "Value" "STM32F405RGT6"
-			(at 16.209365 8.578895 360)
+			(at 16.209365 8.578895 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af3c6697-14d5-4ee8-a06c-935eece4d864")
@@ -17030,7 +17030,7 @@
 			)
 		)
 		(property "Footprint" "Motor-Flasher:QFP50P1200X1200X160-64N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4dc8643a-a3c5-4ce0-9cbc-461922095652")
@@ -17042,7 +17042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cba2498c-3214-467e-a71e-98725200be7b")
@@ -17054,7 +17054,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0bab1405-36f0-4b04-b5aa-cd87ca1e2c32")
@@ -17998,7 +17998,7 @@
 	(footprint "Motor-Flasher:SOIC127P1030X265-18N"
 		(layer "F.Cu")
 		(uuid "ddcdcbff-374a-4fa2-949f-e66d1e334180")
-		(at 81 182 90)
+		(at 108.96 131.11 90)
 		(property "Reference" "U19"
 			(at -2.535 -6.637 90)
 			(layer "F.SilkS")

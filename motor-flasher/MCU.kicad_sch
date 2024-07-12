@@ -5,393 +5,6 @@
 	(uuid "426063dc-e8de-456b-a0ae-b97f56e5e8c3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2024-05-28_19-32-11:SS12D07VG4NSGAPA"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 15.24 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SS12D07VG4NSGAPA"
-				(at 20.32 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SS12D07_CNK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "SS12D07VG4NSGAPA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SS12D07VG4NSGAPA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SS12D07_CNK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS12D07VG4NSGAPA_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -12.7) (xy 20.32 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 10.16 -9.525)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 10.16 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 15.24 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 15.24 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -10.795) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -9.525) (xy 10.16 -10.795)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.715) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -4.445) (xy 10.16 -5.715)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -0.635) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0.635) (xy 10.16 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 0) (xy 15.24 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -12.7) (xy 20.32 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 10.16 -9.525) (xy 10.16 -10.795)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 10.16 -4.445) (xy 10.16 -5.715)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0.635) (xy 10.16 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "CSTNE16M0V530000R0:CSTNE16M0V530000R0"
 			(pin_names
 				(offset 1.016)
@@ -1417,7 +1030,398 @@
 				)
 			)
 		)
-		(symbol "STM32F405RGT6:STM32F405RGT6"
+		(symbol "Motor_Flasher_Modified:SS12D07VG4NSGAPA_Boot"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW5"
+				(at 8.89 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SS12D07VG4NSGAPA_Boot"
+				(at -5.334 -18.796 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Motor-Flasher:SOT95P275X110-6N"
+				(at -1.016 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SS12D07VG4NSGAPA"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SS12D07VG4NSGAPA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SS12D07_CNK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS12D07VG4NSGAPA_Boot_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 20.32 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 10.16 -9.525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 10.16 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.795) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -9.525) (xy 10.16 -10.795)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.715) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -4.445) (xy 10.16 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -0.635) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0.635) (xy 10.16 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 0) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -12.7) (xy 20.32 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 10.16 -9.525) (xy 10.16 -10.795)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 10.16 -4.445) (xy 10.16 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0.635) (xy 10.16 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SS12D07VG4NSGAPA_Boot_1_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Motor_Flasher_Modified:STM32F405RGT6"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2666,30 +2670,30 @@
 				)
 			)
 		)
-		(symbol "dk_Pushbutton-Switches:GPTS203211B"
+		(symbol "Motor_Flasher_Modified:TS-1088-ARO2016_Mod"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at -3.81 3.81 0)
+			(property "Reference" "S11"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "GPTS203211B"
-				(at 0 -2.54 0)
+			(property "Value" "TS-1088-AR02016"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "digikey-footprints:PushButton_12x12mm_THT_GPTS203211B"
+			(property "Footprint" "Motor-Flasher:TS-1088-AR02016"
 				(at 5.08 5.08 0)
 				(effects
 					(font
@@ -2808,7 +2812,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GPTS203211B_0_1"
+			(symbol "TS-1088-ARO2016_Mod_0_1"
 				(circle
 					(center -1.524 0)
 					(radius 0.254)
@@ -2892,7 +2896,7 @@
 					)
 				)
 			)
-			(symbol "GPTS203211B_1_1"
+			(symbol "TS-1088-ARO2016_Mod_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3149,22 +3153,10 @@
 		)
 	)
 	(junction
-		(at 190.5 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0010ddc5-8a78-454c-87ab-018cf3051024")
-	)
-	(junction
 		(at 55.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14597c48-3f80-425b-b580-fdd7c5f57b40")
-	)
-	(junction
-		(at 190.5 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2765130d-8cdd-4177-9361-e7f5ed8b7932")
 	)
 	(junction
 		(at 251.46 30.48)
@@ -3209,6 +3201,18 @@
 		(uuid "75a8865a-364e-4487-a2f8-407ece6e9406")
 	)
 	(junction
+		(at 190.5 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b6bdfd4-c3b8-400b-9e3e-6da0496682e0")
+	)
+	(junction
+		(at 190.5 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c687ea2-728e-417c-bc0e-2af313ae64d8")
+	)
+	(junction
 		(at 50.8 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3225,12 +3229,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c47b7298-34f0-4472-a92f-cf3ba59a0b13")
-	)
-	(junction
-		(at 31.75 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3f8792b-c255-4b6a-8039-e0799e903a1f")
 	)
 	(junction
 		(at 243.84 22.86)
@@ -3372,16 +3370,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 41.91) (xy 190.5 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03052a50-e14b-4f3c-ae29-286677a639e6")
-	)
-	(wire
-		(pts
 			(xy 243.84 22.86) (xy 251.46 22.86)
 		)
 		(stroke
@@ -3452,16 +3440,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 22.86) (xy 19.05 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f93ca26-c564-4d97-9932-aee3859600ca")
-	)
-	(wire
-		(pts
 			(xy 243.84 30.48) (xy 243.84 33.02)
 		)
 		(stroke
@@ -3479,6 +3457,16 @@
 			(type default)
 		)
 		(uuid "31877f6f-8b41-4d3d-a176-5a6533020827")
+	)
+	(wire
+		(pts
+			(xy 190.5 39.37) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ad3ad0-2f6e-4c24-81bd-8c32480ce5ea")
 	)
 	(wire
 		(pts
@@ -3519,16 +3507,6 @@
 			(type default)
 		)
 		(uuid "511828c3-936d-4cfd-83d5-8074700df9dc")
-	)
-	(wire
-		(pts
-			(xy 44.45 33.02) (xy 44.45 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5838a79c-8845-458d-a2b7-4e6712784114")
 	)
 	(wire
 		(pts
@@ -3612,16 +3590,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 33.02) (xy 19.05 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f00b4d-3c58-4c2a-b74d-840ca67446c5")
-	)
-	(wire
-		(pts
 			(xy 97.79 110.49) (xy 116.84 110.49)
 		)
 		(stroke
@@ -3649,16 +3617,6 @@
 			(type default)
 		)
 		(uuid "90e7dd2b-b955-4cf3-b2a3-a706510a7eba")
-	)
-	(wire
-		(pts
-			(xy 44.45 22.86) (xy 44.45 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b26a0e-fb34-4c0d-9835-f0561cd34ad8")
 	)
 	(wire
 		(pts
@@ -3732,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 44.45) (xy 190.5 46.99)
+			(xy 190.5 41.91) (xy 190.5 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3772,16 +3730,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 39.37) (xy 190.5 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce27a38b-400f-4937-957c-77be25983bd4")
-	)
-	(wire
-		(pts
 			(xy 104.14 107.95) (xy 129.54 107.95)
 		)
 		(stroke
@@ -3809,16 +3757,6 @@
 			(type default)
 		)
 		(uuid "ddecaacd-64ea-4a63-ba6a-1f688aae2304")
-	)
-	(wire
-		(pts
-			(xy 44.45 35.56) (xy 31.75 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deb7d363-f8e1-4213-b0aa-f59e13b0e2e0")
 	)
 	(wire
 		(pts
@@ -3852,6 +3790,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 44.45) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed58ae2d-0dbd-4de9-800d-e79908607288")
+	)
+	(wire
+		(pts
 			(xy 190.5 36.83) (xy 190.5 39.37)
 		)
 		(stroke
@@ -3869,16 +3817,6 @@
 			(type default)
 		)
 		(uuid "fb6c6afb-6b15-4884-aa91-271c061b29de")
-	)
-	(wire
-		(pts
-			(xy 19.05 35.56) (xy 31.75 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc57571-53c1-428c-b830-f2a84a8e8dcc")
 	)
 	(label "Boot0"
 		(at 53.34 83.82 0)
@@ -3913,7 +3851,7 @@
 		)
 		(uuid "47d48744-14e8-4348-b860-93afe97f54ee")
 	)
-	(label "Osc2"
+	(label "OscOut"
 		(at 190.5 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3924,7 +3862,7 @@
 		)
 		(uuid "4b23b84a-43ae-43c7-b058-28bfe16b99a6")
 	)
-	(label "Osc1"
+	(label "OscIn"
 		(at 19.05 22.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3957,7 +3895,7 @@
 		)
 		(uuid "75480b90-4b1e-4b8e-904b-eb4cfec329ce")
 	)
-	(label "Osc2"
+	(label "OscOut"
 		(at 44.45 22.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3968,7 +3906,7 @@
 		)
 		(uuid "7f7e56bf-8f92-4ec1-8e7b-add470c4fd86")
 	)
-	(label "Osc1"
+	(label "OscIn"
 		(at 190.5 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4119,7 +4057,7 @@
 		)
 		(uuid "6a77933d-837f-421e-ba5b-186ddb027fc9")
 	)
-	(hierarchical_label "LCD_INT"
+	(hierarchical_label "LCD_Int"
 		(shape output)
 		(at 97.79 107.95 180)
 		(fields_autoplaced yes)
@@ -4276,75 +4214,6 @@
 			(project ""
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 19.05 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "151d4585-898a-422f-aa98-5b581466e272")
-		(property "Reference" "C19"
-			(at 18.288 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "7pF"
-			(at 19.812 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 20.0152 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 19.05 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed316435-29bd-48a9-9bb0-69da4cae88df")
-		)
-		(pin "2"
-			(uuid "06a82422-5408-445b-9c0f-0c4222a9c589")
-		)
-		(instances
-			(project "Motor Programmer Rev. 2"
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4631,6 +4500,291 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor_Flasher_Modified:STM32F405RGT6")
+		(at 160.02 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d0c205f-1342-4b57-beca-34d5ef547b93")
+		(property "Reference" "U8"
+			(at 160.02 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32F405RGT6"
+			(at 160.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Motor-Flasher:QFP50P1200X1200X160-64N"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "LTR"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "914cfa31-9270-4d30-a5d3-c27f2977f5da")
+		)
+		(pin "26"
+			(uuid "a87711f7-00c4-4f36-a335-dbe0a94d25ac")
+		)
+		(pin "30"
+			(uuid "20ee70d5-f79f-4f97-be8e-ec9bc1357ba4")
+		)
+		(pin "43"
+			(uuid "3c0618f4-c3f0-41e1-a983-268936505e0f")
+		)
+		(pin "39"
+			(uuid "76004286-d8c5-4dfd-891f-996a737622b9")
+		)
+		(pin "45"
+			(uuid "66d5a53c-17e8-4ae1-95ec-cbf9d26a9f72")
+		)
+		(pin "5"
+			(uuid "4c961c19-8751-44b2-87f8-34628e3a76b2")
+		)
+		(pin "51"
+			(uuid "974bc32c-dcb6-4bd3-96b1-61167cb84b15")
+		)
+		(pin "53"
+			(uuid "1bf78544-45e6-48c6-bc40-f621a49f0ab1")
+		)
+		(pin "54"
+			(uuid "1b58f4d1-d69e-4335-93bf-bd73e5558fad")
+		)
+		(pin "14"
+			(uuid "021fdf0e-99cf-467e-9334-7cc9b323e38a")
+		)
+		(pin "27"
+			(uuid "ff483250-7b95-4b45-94bd-1f1f1db82f0e")
+		)
+		(pin "20"
+			(uuid "c277c887-ea4c-4093-a902-24d48a10df80")
+		)
+		(pin "28"
+			(uuid "9d402b2a-3bab-4907-afb6-987f650235cf")
+		)
+		(pin "38"
+			(uuid "a7fea09f-7d8c-484d-b263-aa22bbfa9cff")
+		)
+		(pin "44"
+			(uuid "17ae81f8-2b67-45b4-a9aa-bb116212064f")
+		)
+		(pin "15"
+			(uuid "5e696820-6352-4062-b4df-f3867e88103c")
+		)
+		(pin "4"
+			(uuid "21225451-e1fb-4de0-8401-3a9496f917ed")
+		)
+		(pin "25"
+			(uuid "bc88f9ab-3cd0-4e56-9bf2-a39399d90e0d")
+		)
+		(pin "3"
+			(uuid "2c4b68e6-03e7-48a0-8285-67893aff708d")
+		)
+		(pin "46"
+			(uuid "949d0d33-cebe-4589-9884-f89fab6805ad")
+		)
+		(pin "55"
+			(uuid "b0a20aac-4758-4970-a7d6-c429cf54f5a9")
+		)
+		(pin "56"
+			(uuid "d05a4ddd-3353-4e01-a580-6fbea0c1dc6d")
+		)
+		(pin "58"
+			(uuid "f13c42e2-513b-456f-bb1c-c4bab11beb38")
+		)
+		(pin "57"
+			(uuid "eef3b974-2bb9-483d-99c5-03b2a2ae038e")
+		)
+		(pin "11"
+			(uuid "d83af67f-2873-4cfd-8572-8df0787e910a")
+		)
+		(pin "24"
+			(uuid "d6675472-99ea-4294-a20a-cbc3405b5869")
+		)
+		(pin "10"
+			(uuid "b66e0ae4-5b5e-40d4-9e0f-df63ea1ab9c2")
+		)
+		(pin "29"
+			(uuid "9d93894f-ca6e-4a9b-af3a-e3a30adadbe8")
+		)
+		(pin "17"
+			(uuid "bb676742-e189-4067-8f9e-2fb50e90ae62")
+		)
+		(pin "37"
+			(uuid "8de01e92-a5e8-46a5-adc4-8a9a97c5d161")
+		)
+		(pin "16"
+			(uuid "b2e30940-4ab1-4b45-8a06-cd6bbb6d7141")
+		)
+		(pin "42"
+			(uuid "70a761a4-a256-443e-adf9-9b6c96b360d0")
+		)
+		(pin "48"
+			(uuid "ada412a0-db95-493d-940a-43fcbef280d4")
+		)
+		(pin "49"
+			(uuid "f2e3ac9b-24b7-4ed4-8e76-269a89a91d90")
+		)
+		(pin "52"
+			(uuid "aa1f1632-d61f-4139-a6fa-43ae58351e90")
+		)
+		(pin "59"
+			(uuid "b4345613-c0af-48d1-bf5c-dc70ab83866a")
+		)
+		(pin "6"
+			(uuid "a2e2ffef-5da4-4b6d-808e-a6b8c397bd9b")
+		)
+		(pin "60"
+			(uuid "a9421031-cb7c-4bec-8387-a8ece92b3610")
+		)
+		(pin "1"
+			(uuid "bcb6133e-52e9-4706-bea6-efc436ac2576")
+		)
+		(pin "12"
+			(uuid "65685edf-f360-44f3-a7f3-f3b04d779916")
+		)
+		(pin "61"
+			(uuid "eb66d7e8-6e05-4b51-9a8b-8756510dfefa")
+		)
+		(pin "18"
+			(uuid "f31d9008-c2e8-4591-a677-55134a610d35")
+		)
+		(pin "62"
+			(uuid "d740d7b0-6472-43b6-b413-32f330d74318")
+		)
+		(pin "63"
+			(uuid "bf5dd5e2-d431-412d-83f8-9e397def813d")
+		)
+		(pin "19"
+			(uuid "ff717c8a-a725-4760-88d4-8ad7f5b08e8b")
+		)
+		(pin "32"
+			(uuid "656650af-79b2-4c29-9dda-ca2cd4d82a76")
+		)
+		(pin "33"
+			(uuid "72e52c7b-37eb-4979-aef6-0b50871e6ed4")
+		)
+		(pin "34"
+			(uuid "6c244c92-db43-4592-9d39-29ab36ce7e0d")
+		)
+		(pin "50"
+			(uuid "18cf777b-95cb-46d1-879c-fd510e3d4ea6")
+		)
+		(pin "35"
+			(uuid "c32018c0-32cb-4b29-8f8c-22057650d140")
+		)
+		(pin "36"
+			(uuid "e61cbd75-82e6-4512-a403-829948b75184")
+		)
+		(pin "41"
+			(uuid "e11eddcf-679c-4619-a1db-b6c2453f4445")
+		)
+		(pin "22"
+			(uuid "d8a910af-d40a-4928-8e3e-53cf615cc430")
+		)
+		(pin "40"
+			(uuid "646277cf-9eda-4200-af02-fd0f0f4c901e")
+		)
+		(pin "13"
+			(uuid "b3d84079-d7dc-436b-962b-a3e80dcb422c")
+		)
+		(pin "2"
+			(uuid "ae491260-a953-4a9e-98bd-6998b0cf786c")
+		)
+		(pin "21"
+			(uuid "79e4715c-9e84-4d19-ba0f-26e23214c2e5")
+		)
+		(pin "8"
+			(uuid "28b70ca0-2a81-427c-8b63-e79a53d39ad6")
+		)
+		(pin "7"
+			(uuid "8b692ba5-170b-49f4-8440-928a41832650")
+		)
+		(pin "64"
+			(uuid "584b0bd5-be52-42c3-9635-76e14278ef4f")
+		)
+		(pin "9"
+			(uuid "3217d2be-77e5-482f-ab18-cd2420dd37d6")
+		)
+		(pin "31"
+			(uuid "a4d012f0-2f00-4a8f-8f61-ef633bb0ffc5")
+		)
+		(pin "47"
+			(uuid "6560f414-c35f-4883-b699-f7816a208147")
+		)
+		(instances
+			(project "motor-flasher"
+				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 110.49 97.79 0)
 		(unit 1)
@@ -4833,291 +4987,6 @@
 		)
 	)
 	(symbol
-		(lib_id "STM32F405RGT6:STM32F405RGT6")
-		(at 160.02 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e27c157-b36c-4cb3-b22f-d7a82a36f326")
-		(property "Reference" "U10"
-			(at 160.02 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STM32F405RGT6"
-			(at 160.02 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Motor-Flasher:QFP50P1200X1200X160-64N"
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "LTR"
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "STMicroelectronics"
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "62"
-			(uuid "f576ba0f-6b3c-4056-a246-ca7889d0ece0")
-		)
-		(pin "4"
-			(uuid "3135976b-9eda-4a14-934f-77925ff6b386")
-		)
-		(pin "16"
-			(uuid "90620792-aa4a-4cb5-aad0-20549fc5f19c")
-		)
-		(pin "25"
-			(uuid "7c6dde17-2743-4b6a-b60b-1bde0de59375")
-		)
-		(pin "8"
-			(uuid "ab68c5d6-4016-4c10-a78f-94717eae473c")
-		)
-		(pin "51"
-			(uuid "cc9e8143-4ac9-4e2b-a32f-152399506259")
-		)
-		(pin "58"
-			(uuid "14e8544f-04b1-485d-a3a7-bdcd10560ef5")
-		)
-		(pin "7"
-			(uuid "2d26ca8f-b71f-44f2-9cc4-44bbcd4539d9")
-		)
-		(pin "64"
-			(uuid "ee0a54ac-e0f4-4035-b54b-abc8a0b5dcbb")
-		)
-		(pin "63"
-			(uuid "c6d8a802-1dee-4d00-8dff-5e05a06e5a4d")
-		)
-		(pin "60"
-			(uuid "77e8df33-6bba-4cc0-81d5-a60dd172a498")
-		)
-		(pin "9"
-			(uuid "3de5c551-8ffa-4a7e-86d8-970eab55ee42")
-		)
-		(pin "37"
-			(uuid "b69470f4-fcbf-422c-8291-663ddb274ac9")
-		)
-		(pin "43"
-			(uuid "2c7e7256-a0c7-4e53-8d31-0aee9e5a20e2")
-		)
-		(pin "49"
-			(uuid "08829444-2b10-495c-8081-852f3f849816")
-		)
-		(pin "48"
-			(uuid "00c1a818-3453-459a-b3c8-6a860ff1f7dc")
-		)
-		(pin "35"
-			(uuid "767fd0be-86c0-4bf0-9140-3e4ff512fe84")
-		)
-		(pin "41"
-			(uuid "94b392e4-2ae8-4196-a1e0-58deef2a8b62")
-		)
-		(pin "32"
-			(uuid "fd874786-6d93-4a9b-aa5c-3789721a0dd5")
-		)
-		(pin "61"
-			(uuid "3304cb43-015f-4cad-b8ce-5cb940b11a24")
-		)
-		(pin "45"
-			(uuid "10b802b4-dbd5-4263-a22d-4c94623f83fa")
-		)
-		(pin "33"
-			(uuid "9809b652-8e69-40e1-97a6-936320651fc7")
-		)
-		(pin "31"
-			(uuid "7c8f7bab-01b2-4d27-b115-f6c1e0e10c79")
-		)
-		(pin "40"
-			(uuid "56f3d709-59ca-43e8-9fa0-45eb3061cf10")
-		)
-		(pin "39"
-			(uuid "368402f9-b9a9-4946-abb3-35e36a5bf8be")
-		)
-		(pin "46"
-			(uuid "6fa520ff-6dd1-46b5-9431-374d1e36a860")
-		)
-		(pin "28"
-			(uuid "c5852f13-e76a-4023-9794-604fee67da25")
-		)
-		(pin "56"
-			(uuid "9f18a0ab-1171-4b5f-b9bb-55dfd100382d")
-		)
-		(pin "53"
-			(uuid "7f8803be-1489-4b2e-a004-68e819874b5b")
-		)
-		(pin "18"
-			(uuid "9d1579c8-27d2-4577-aafb-56f2907a9bb4")
-		)
-		(pin "2"
-			(uuid "78259c36-d7b5-466d-aa9a-f1674d7e77f4")
-		)
-		(pin "36"
-			(uuid "27181f58-6470-4d81-8100-7361cf88f06c")
-		)
-		(pin "10"
-			(uuid "97e8512f-33db-4c24-bd23-1986f5c5a58d")
-		)
-		(pin "54"
-			(uuid "79d7fffd-1dc3-4964-9a63-cb85f4bacdde")
-		)
-		(pin "24"
-			(uuid "65e103df-ab6b-40d7-92c2-d353a2aea945")
-		)
-		(pin "57"
-			(uuid "c3b6986f-4522-4331-ba60-9140efdc0556")
-		)
-		(pin "27"
-			(uuid "fd231ad7-6591-481c-be52-fef56d56aeec")
-		)
-		(pin "21"
-			(uuid "896f2ba4-e085-4eca-a7ee-8ff274dedefd")
-		)
-		(pin "1"
-			(uuid "c6d52d8e-88bb-428c-9475-ec0d35b2a609")
-		)
-		(pin "20"
-			(uuid "bbb71e9f-75be-444d-bdbb-c675cd165504")
-		)
-		(pin "17"
-			(uuid "8c076622-bc2f-48fc-ad86-cad7ff48495f")
-		)
-		(pin "22"
-			(uuid "bba9fac8-3083-4dcb-b5ce-2f664313ba46")
-		)
-		(pin "26"
-			(uuid "c658bf9c-4da9-4c75-8c74-afe75e92ddda")
-		)
-		(pin "11"
-			(uuid "1df51a33-fdd2-49f1-ab40-f57011600c1b")
-		)
-		(pin "6"
-			(uuid "977843c2-8a62-45a3-9dca-9658eedfe55d")
-		)
-		(pin "42"
-			(uuid "da243e8e-d860-457e-b078-1cf50ab9e47e")
-		)
-		(pin "19"
-			(uuid "493ec8c5-c767-4fcc-989d-136b5600fcd5")
-		)
-		(pin "30"
-			(uuid "82b6d274-42ec-422c-b650-569e0f08135e")
-		)
-		(pin "34"
-			(uuid "e26dbc2c-36c1-47b8-ab7a-c392edaaaaf2")
-		)
-		(pin "55"
-			(uuid "be2493bb-91f4-4ed0-9bb6-d8b0d2c76665")
-		)
-		(pin "52"
-			(uuid "9c30b14e-a61b-44e4-825a-e48f680e922d")
-		)
-		(pin "50"
-			(uuid "042fb465-40e7-4018-a8c5-7bd4983e9fe7")
-		)
-		(pin "47"
-			(uuid "52badb03-99aa-410e-8ee8-acc4c4175320")
-		)
-		(pin "23"
-			(uuid "2fcd0388-3112-4d65-8321-0db87387d0d2")
-		)
-		(pin "44"
-			(uuid "2c023f01-e4e5-47b6-a270-ea041c82d2aa")
-		)
-		(pin "5"
-			(uuid "48a7ded3-e044-412a-b1a0-89e28a34389e")
-		)
-		(pin "3"
-			(uuid "3c1607e2-559d-403b-b8b9-b1a747de5e2f")
-		)
-		(pin "29"
-			(uuid "f489eba2-e80d-47e9-af53-92fde3dafcd7")
-		)
-		(pin "38"
-			(uuid "f1ac49c5-c553-4a76-8e01-354d33bf9a6c")
-		)
-		(pin "59"
-			(uuid "2b26571b-4563-404a-829f-b7f0804a38d3")
-		)
-		(pin "15"
-			(uuid "30891c9c-46bb-45dd-a75d-6e43173305f0")
-		)
-		(pin "12"
-			(uuid "6aac3255-af58-49d7-9e76-3ffee5919624")
-		)
-		(pin "14"
-			(uuid "fa47c35b-8151-4e23-882a-8a47756105c6")
-		)
-		(pin "13"
-			(uuid "75bf0826-70e8-492b-b58d-d6e4b5f70f55")
-		)
-		(instances
-			(project ""
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 236.22 26.67 0)
 		(unit 1)
@@ -5188,75 +5057,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "491e0059-e748-4285-9a20-fb913cd0c424")
-		(property "Reference" "C20"
-			(at 48.26 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "7pF"
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 45.4152 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9024e5a-942b-41ef-a02c-b11d61448fa4")
-		)
-		(pin "2"
-			(uuid "548535ed-3381-44e6-bca1-b3d026f098ff")
-		)
-		(instances
-			(project "Motor Programmer Rev. 2"
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 198.12 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5317,157 +5117,6 @@
 			(project "motor-flasher"
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Pushbutton-Switches:GPTS203211B")
-		(at 35.56 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52466cec-64ee-407c-b2f2-5209262321b5")
-		(property "Reference" "S10"
-			(at 35.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS-1088-AR02016"
-			(at 35.56 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Motor-Flasher:TS-1088-AR02016"
-			(at 30.48 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 30.48 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SWITCH PUSHBUTTON SPST 1A 30V"
-			(at 30.48 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "CW181-ND"
-			(at 30.48 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GPTS203211B"
-			(at 30.48 66.04 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Switches"
-			(at 30.48 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Pushbutton Switches"
-			(at 30.48 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
-			(at 30.48 73.66 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CW Industries"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 30.48 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48fe74df-f5eb-48b7-9681-c13d7f4fd6a7")
-		)
-		(pin "2"
-			(uuid "20f3ae0b-9461-41ba-b93a-9ea4ee818d60")
-		)
-		(instances
-			(project "Motor Programmer Rev. 2"
-				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
-					(reference "S10")
 					(unit 1)
 				)
 			)
@@ -6189,6 +5838,79 @@
 			(project ""
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_Flasher_Modified:SS12D07VG4NSGAPA_Boot")
+		(at 34.29 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a36f8b7b-d556-4774-935e-081a5d1aa839")
+		(property "Reference" "SW3"
+			(at 20.32 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SS12D07VG4NSGAPA_Boot"
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Motor-Flasher:SOT95P275X110-6N"
+			(at 35.306 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SS12D07VG4NSGAPA"
+			(at 34.29 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd92521d-6503-4496-856b-bf25fd084ac0")
+		)
+		(pin "1"
+			(uuid "139940e6-fa1e-4207-bf6c-31d6156a6407")
+		)
+		(pin "3"
+			(uuid "4afac006-51d9-4a32-bc6e-2ffe29077c92")
+		)
+		(instances
+			(project ""
+				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -6947,74 +6669,151 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-05-28_19-32-11:SS12D07VG4NSGAPA")
-		(at 34.29 88.9 180)
+		(lib_id "Motor_Flasher_Modified:TS-1088-ARO2016_Mod")
+		(at 35.56 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dea5d1ff-b5c9-4b33-9fcd-2692ec2e6fd2")
-		(property "Reference" "SW5"
-			(at 25.4 73.66 0)
+		(fields_autoplaced yes)
+		(uuid "d1670f60-af91-4836-a8aa-94bbbeb16883")
+		(property "Reference" "S1"
+			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1088-AR02016"
+			(at 35.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Motor-Flasher:TS-1088-AR02016"
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "SS12D07VG4NSGAPA"
-			(at 39.624 70.104 0)
+		(property "Description" "SWITCH PUSHBUTTON SPST 1A 30V"
+			(at 40.64 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
-			)
-		)
-		(property "Footprint" "Motor-Flasher:SOT95P275X110-6N"
-			(at 34.29 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SS12D07VG4NSGAPA"
-			(at 34.29 88.9 0)
+		(property "Digi-Key_PN" "CW181-ND"
+			(at 40.64 43.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(italic yes)
+					(size 1.524 1.524)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 88.9 0)
+		(property "MPN" "GPTS203211B"
+			(at 40.64 40.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Switches"
+			(at 40.64 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Pushbutton Switches"
+			(at 40.64 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590"
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CW Industries"
+			(at 40.64 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "d9449e51-2b33-4578-9dae-295c185a5268")
+			(uuid "bd35518d-4551-4ac1-ac9f-9e0801aa9c94")
 		)
 		(pin "2"
-			(uuid "36f8d1cd-22cf-41f8-a254-54b3c655c86f")
-		)
-		(pin "3"
-			(uuid "f960256c-7716-4df2-82d5-bc9911a45ff1")
+			(uuid "2c0da64e-d712-4f72-8b2b-07fae2df294f")
 		)
 		(instances
-			(project "Motor Programmer Rev. 2"
+			(project ""
 				(path "/011ae556-31c3-4ee2-a722-f56ffd3fdd08/21b9991f-ddde-447d-9f53-2b3773ea9e1b"
-					(reference "SW5")
+					(reference "S1")
 					(unit 1)
 				)
 			)

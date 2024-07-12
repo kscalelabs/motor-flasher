@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 21.59) (xy 181.61 21.59)
+			(xy 180.34 21.59) (xy 182.88 21.59)
 		)
 		(stroke
 			(width 0)
@@ -237,16 +237,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 49.53) (xy 184.15 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62c1024-dc0e-4bfd-8770-67124072671a")
-	)
-	(wire
-		(pts
 			(xy 129.54 143.51) (xy 130.81 143.51)
 		)
 		(stroke
@@ -294,6 +284,16 @@
 			(type default)
 		)
 		(uuid "da91d965-eddd-43a5-9bc0-357e963bd524")
+	)
+	(wire
+		(pts
+			(xy 180.34 49.53) (xy 184.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1f8ded-4518-4ffc-abe0-c15e0bf53648")
 	)
 	(wire
 		(pts
@@ -446,17 +446,6 @@
 		)
 		(uuid "5b07c212-6e54-41a8-a7b8-548e951b1f3c")
 	)
-	(label "LCD_Int"
-		(at 184.15 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "601a2ad1-649d-41a4-b99b-919da9c40b1d")
-	)
 	(label "SDA"
 		(at 184.15 53.34 0)
 		(fields_autoplaced yes)
@@ -479,17 +468,6 @@
 		)
 		(uuid "7478dcd5-1769-48cb-8b51-24e8695769b2")
 	)
-	(label "LCD_Int"
-		(at 181.61 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77266719-7b2b-4e79-aca8-271f0536517e")
-	)
 	(label "CS"
 		(at 129.54 149.86 180)
 		(fields_autoplaced yes)
@@ -511,6 +489,17 @@
 			(justify left bottom)
 		)
 		(uuid "84721d8b-e0f4-4e68-9bbe-5d37f22f8ea2")
+	)
+	(label "LCD_Int"
+		(at 182.88 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87122516-d686-4f53-94f7-f8fdbc70e5ab")
 	)
 	(label "Deb_select"
 		(at 184.15 114.3 0)
@@ -622,6 +611,17 @@
 		)
 		(uuid "c9b6628f-44e5-4309-9648-306b933c9b77")
 	)
+	(label "LCD_Int"
+		(at 184.15 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2e1d043-b85a-48eb-a0fb-f2f64d670df5")
+	)
 	(label "Deb_Down"
 		(at 184.15 118.11 0)
 		(fields_autoplaced yes)
@@ -716,16 +716,6 @@
 			)
 			(uuid "435c37e8-b2f1-4158-8dbb-72ad1380766c")
 		)
-		(pin "LCD_INT" input
-			(at 180.34 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b610c0ec-f4db-4ff2-8cd0-710e96bce761")
-		)
 		(pin "I2C_SDA" bidirectional
 			(at 180.34 26.67 0)
 			(effects
@@ -735,6 +725,16 @@
 				(justify right)
 			)
 			(uuid "5c9366a8-fc29-4d8b-8124-a956622a2cb0")
+		)
+		(pin "LCD_Int" input
+			(at 180.34 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd158bf7-1660-4ddc-a4aa-1a1c3bc5e960")
 		)
 		(instances
 			(project "motor-flasher"
@@ -866,16 +866,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "LCD_INT" output
-			(at 180.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f233b253-f744-435a-b016-053c30885aca")
 		)
 		(pin "I2C_SCL" output
 			(at 180.34 57.15 0)
@@ -1026,6 +1016,16 @@
 				(justify left)
 			)
 			(uuid "31301696-3876-4557-8776-14c90ddf4c6a")
+		)
+		(pin "LCD_Int" output
+			(at 180.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c9dc53b-5870-4b9d-b72e-08bcf20a8897")
 		)
 		(instances
 			(project "motor-flasher"
