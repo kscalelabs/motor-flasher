@@ -3006,7 +3006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LCM-S01602DTR_A:LCD_LCM-S01602DTR_A"
+		(property "Footprint" "Motor-Flasher:LCD_LCM-S01602DTR_A"
 			(at 142.24 90.17 0)
 			(effects
 				(font

@@ -5851,7 +5851,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a36f8b7b-d556-4774-935e-081a5d1aa839")
 		(property "Reference" "SW3"
 			(at 20.32 71.12 0)
@@ -5862,14 +5861,14 @@
 			)
 		)
 		(property "Value" "SS12D07VG4NSGAPA_Boot"
-			(at 20.32 73.66 0)
+			(at 29.21 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Motor-Flasher:SOT95P275X110-6N"
+		(property "Footprint" "Motor-Flasher:SS12D07_CNK"
 			(at 35.306 98.044 0)
 			(effects
 				(font
