@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2839c20d-692b-4008-a2e4-75524635838c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 97.79 76.2)
+		(size 60.96 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e583a992-1935-4344-88bc-f460cb9b2c02")
+		(property "Sheetname" "MCU"
+			(at 97.79 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 97.79 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "InfineonController"
+				(path "/2839c20d-692b-4008-a2e4-75524635838c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
