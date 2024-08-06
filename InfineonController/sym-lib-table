@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XMC4800F144F1024AAXQMA1")(type "KiCad")(uri "C:/Users/Vedant/Downloads/LIB_XMC4800F144F1024AAXQMA1/XMC4800F144F1024AAXQMA1/KiCad/XMC4800F144F1024AAXQMA1.kicad_sym")(options "")(descr ""))
+  (lib (name "XMC4800F144F1024AAXQMA11")(type "KiCad")(uri "${KIPRJMOD}/XMC4800F144F1024AAXQMA1.kicad_sym")(options "")(descr ""))
+)

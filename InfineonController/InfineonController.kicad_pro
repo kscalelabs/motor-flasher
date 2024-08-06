@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "XMC4800F144F1024AAXQMA1"
+    ]
   },
   "meta": {
     "filename": "InfineonController.kicad_pro",
